@@ -1,0 +1,94 @@
+.bg-blue {
+    background-color: #1957f4!important
+}
+
+a.bg-blue:focus,
+a.bg-blue:hover,
+button.bg-blue:focus,
+button.bg-blue:hover {
+    background-color: #164bd1!important
+}
+
+
+.bg-yellow {
+    background-color: #f4e219!important
+}
+
+a.bg-yellow:focus,
+a.bg-yellow:hover,
+button.bg-yellow:focus,
+button.bg-yellow:hover {
+    background-color: #dcca06!important
+}
+
+
+.bg-green {
+    background-color: #13d164!important
+}
+
+a.bg-green:focus,
+a.bg-green:hover,
+button.bg-green:focus,
+button.bg-green:hover {
+    background-color: #04a549!important
+}
+
+.bg-orange {
+    background-color: #ff9057!important
+}
+
+a.bg-orange:focus,
+a.bg-orange:hover,
+button.bg-orange:focus,
+button.bg-orange:hover {
+    background-color: #ff6d24!important
+}
+
+
+
+.border-activity {
+    border-top: solid 1px #ffffff;
+    border-left: solid 1px #ffffff;
+    background-color: rgba(39, 43, 61, 0.2);
+    padding-top: 14px;
+    margin-left: 60px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    opacity: 0.7;
+}
+
+.border-activity i, .border-activity svg-inline- {
+    padding-top:10px;
+}
+
+
+/** Participator score **/
+.message-box .message-widget a .mail-contnet h5 {
+    display: inline !important;
+}
+
+.message-box .message-widget a .mail-contnet .mail-desc, .message-box .message-widget a .mail-contnet .time {
+    display: inline !important;
+}
+
+.userline {
+    box-sizing: content-box;
+    height: 10px;
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 1rem;
+    display: inline;
+    position: absolute;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.message-box .message-widget a {
+    border-bottom: none !important;
+}
+
+
+/** Users **/
+.fa-star {
+    color:#ffde00;
+}
