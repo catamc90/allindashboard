@@ -245,3 +245,27 @@ custom-checkbox {
     width: 150px;
     display: inline;
 }
+
+/** btt send modal **/
+.btnSendModal {
+    color: #fff;
+    background-color: #e61610;
+    border-color: #e61610;
+
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    width: 100%;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btnSendModal:hover {
+    color: #fff;
+    background-color: #e54b46;
+    border-color: #e54b46;
+}

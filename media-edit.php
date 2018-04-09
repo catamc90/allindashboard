@@ -27,20 +27,18 @@ include 'header.php';
                 <div class="row whitebg roundcorners" >
 
 
-                    <div class="col-12">
+                    <div class="col-7">
                         <div class="card">
                             <div class="card-body">
                                 <!--                        <h4 class="card-title">Contact Emplyee list</h4>-->
                                 <!--                        <h6 class="card-subtitle"></h6>-->
-                                <div class="col-7">
-
-
+                                <div class="col-md-12">
 
                                     <form class="form">
                                         <div class="form-group row">
                                             <div class="col-10">
                                                 <h5 class="">CAPTION</h5>
-                                                <input class="form-control" type="text" value="Text here" id="example-text-input">
+                                                <input class="form-control" type="text" value="Text here" id="example-text-input" >
                                             </div>
                                         </div>
 
@@ -91,59 +89,74 @@ include 'header.php';
                                             <div class="col-sm-10">
                                                 <img src="assets/images/media/city.png">
                                             </div>
-<!--                                            <button type="button" class="btn btn-info btn-rounded" data-toggle="modal" data-target="#add-contact">Add New Contact</button>-->
-                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" class="btn btn-info text-white">Modal</a>
                                         </div>
-
-                                        <div id="myModal" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                            <div class="modal-dialog">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <h4 class="modal-title" id="myModalLabel">NEED MORE INFO?</h4>
-                                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <from class="form-horizontal">
-
-                                                            <div class="form-group">
-<!--                                                                <label class="col-md-12">Select Number of people</label>-->
-                                                                <div class="col-md-12">
-                                                                    <select class="form-control">
-                                                                        <option>John</option>
-                                                                        <option>10</option>
-                                                                        <option>20</option>
-                                                                        <option>30</option>
-                                                                        <option>40</option>
-                                                                        <option>Custome</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="form-group">
-<!--                                                                <label class="col-md-12">Name of Label</label>-->
-                                                                <div class="col-md-12">
-                                                                    <input type="textarea" class="form-control" placeholder="Your message here"> </div>
-                                                            </div>
-                                                        </from>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <button type="button" class="btn btn-info waves-effect" data-dismiss="modal">Save</button>
-                                                        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Cancel</button>
-                                                    </div>
-                                                </div>
-                                                <!-- /.modal-content -->
-                                            </div>
-                                            <!-- /.modal-dialog -->
-                                        </div>
-
-
-
 
                                     </form>
 
 
                                 </div>
 
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="col-md-12">
+                                <div class="form-group row text-left">
+
+
+                            <div class="text-left pull-left">
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" ><img src="assets/images/media/ask.png"></a>
+                            </div>
+
+                                <div id="myModal" class="modal fade bs-example-modal-lg show" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true" >
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title" id="myModalLabel">NEED MORE INFO?</h4>
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <from class="form-horizontal">
+
+                                                    <div class="form-group">
+                                                        <!--                                                                <label class="col-md-12">Select Number of people</label>-->
+                                                        <div class="col-md-6">
+                                                            <select class="form-control">
+                                                                <option>John Smith</option>
+                                                                <option>10</option>
+                                                                <option>20</option>
+                                                                <option>30</option>
+                                                                <option>40</option>
+                                                                <option>Custome</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <!--                                                                <label class="col-md-12">Name of Label</label>-->
+                                                        <div class="col-md-12">
+                                                            <textarea class="form-control" id="message-text" placeholder="Your message here" cols="4" rows="8"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </from>
+                                            </div>
+                                            <div class="modal-footer">
+
+                                                <button type="button" class=" btnSendModal waves-effect" data-dismiss="modal">SEND</button>
+                                            </div>
+                                        </div>
+                                        <!-- /.modal-content -->
+                                    </div>
+                                    <!-- /.modal-dialog -->
+                                </div>
+
+                            </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
