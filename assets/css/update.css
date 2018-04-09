@@ -232,3 +232,16 @@ button.bg-orange:hover {
     margin-right: 20px;
     opacity: 0.3;
 }
+
+custom-checkbox {
+
+}
+
+.social1 {
+    margin-top:100px;
+    background-color: #f9f9f9;
+    border:1px solid #dcdcdc;
+    padding: 15px 40px;
+    width: 150px;
+    display: inline;
+}
