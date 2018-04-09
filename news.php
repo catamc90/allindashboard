@@ -112,48 +112,12 @@ include 'header.php';
                         <!--                        <h4 class="card-title">Contact Emplyee list</h4>-->
                         <!--                        <h6 class="card-subtitle"></h6>-->
                         <div class="table-responsive">
-                            <div id="add-contact" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                            <h4 class="modal-title" id="myModalLabel">Add New Contact</h4> </div>
-                                        <div class="modal-body">
-                                            <from class="form-horizontal form-material">
-                                                <div class="form-group">
-                                                    <div class="col-md-12 m-b-20">
-                                                        <input type="text" class="form-control" placeholder="Type name"> </div>
-                                                    <div class="col-md-12 m-b-20">
-                                                        <input type="text" class="form-control" placeholder="Email"> </div>
-                                                    <div class="col-md-12 m-b-20">
-                                                        <input type="text" class="form-control" placeholder="Phone"> </div>
-                                                    <div class="col-md-12 m-b-20">
-                                                        <input type="text" class="form-control" placeholder="Designation"> </div>
-                                                    <div class="col-md-12 m-b-20">
-                                                        <input type="text" class="form-control" placeholder="Age"> </div>
-                                                    <div class="col-md-12 m-b-20">
-                                                        <input type="text" class="form-control" placeholder="Date of joining"> </div>
-                                                    <div class="col-md-12 m-b-20">
-                                                        <input type="text" class="form-control" placeholder="Salary"> </div>
-                                                    <div class="col-md-12 m-b-20">
-                                                        <div class="fileupload btn btn-danger btn-rounded waves-effect waves-light"><span><i class="ion-upload m-r-5"></i>Upload Contact Image</span>
-                                                            <input type="file" class="upload"> </div>
-                                                    </div>
-                                                </div>
-                                            </from>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-info waves-effect" data-dismiss="modal">Save</button>
-                                            <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Cancel</button>
-                                        </div>
-                                    </div>
-                                    <!-- /.modal-content -->
-                                </div>
-                                <!-- /.modal-dialog -->
-                            </div><table id="demo-foo-addrow" class="table m-t-30 table-hover contact-list footable-loaded footable" data-page-size="10">
+
+
+                            <table id="demo-foo-addrow" class="table m-t-30 table-hover contact-list footable-loaded footable" data-page-size="10">
                                 <thead>
                                 <tr>
-                                    <th class="footable-sortable">Name<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable">Headline<span class="footable-sort-indicator"></span></th>
                                     <th class="footable-sortable">Participator Score<span class="footable-sort-indicator"></span></th>
                                     <th class="footable-sortable">Photos</th>
                                     <th class="footable-sortable">Videos</th>
@@ -170,6 +134,7 @@ include 'header.php';
                                     <th class="footable-sortable">Viewed<span class="footable-sort-indicator"></span></th>
                                     <th class="footable-sortable">Quality Score (%)<span class="footable-sort-indicator"></span></th>
                                     <th class="footable-sortable">App Opens<span class="footable-sort-indicator"></span></th>
+
 
                                 </tr>
                                 </thead>

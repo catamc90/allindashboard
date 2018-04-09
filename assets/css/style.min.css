@@ -31290,7 +31290,7 @@ html body .waves-notransition {
     }
     .mini-sidebar .sidebar-nav #sidebarnav>li:hover>a .hide-menu {
         display: inline;
-        padding-left: 25px;
+        padding-left: 40px;
     }
     .mini-sidebar .sidebar-nav #sidebarnav>li:hover>a .label {
         display: none

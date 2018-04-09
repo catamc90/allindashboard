@@ -150,7 +150,7 @@
                 <ul id="sidebarnav">
 
                     <li class="active"> <a class="has-arrow waves-effect waves-dark active" href="javascript:void(0)" aria-expanded="false">
-                            <i class="fas fa-th-large fa-lg"></i><span class="hide-menu"> Dashboard
+                            <i class="fas fa-th-large fa-lg"></i><span class="hide-menu"> DASHBOARD
                             <span class="badge badge-pill badge-cyan ml-auto">5</span></span></a>
                         <ul aria-expanded="false" class="collapse in">
                             <li class="active"><a href="index.php" class="active">Overview </a></li>
@@ -161,8 +161,11 @@
                         </ul>
                     </li>
 
-                    <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-images fa-lg"></i><span class="hide-menu"> Media</span></a>
-                    </li>
+                    <li> <a class="waves-effect waves-dark" href="media.php" aria-expanded="false"><i class="fa fa-images fa-lg"></i><span class="hide-menu">Media</span></a></li>
+
+<!--                    <li> <a class="has-arrow waves-effect waves-dark" href="media.php" ><i class="fas fa-images fa-lg"></i><span class="hide-menu"> Media</span></a></li>-->
+
+
                     <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-newspaper fa-lg"></i><span class="hide-menu"> News</span></a>
                     </li>
 
