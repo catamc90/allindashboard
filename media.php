@@ -47,55 +47,154 @@ include 'header.php';
                                     <table id="demo-foo-addrow" class="table m-t-30 table-hover contact-list footable-loaded footable" data-page-size="10">
                                         <thead>
                                         <tr>
-                                            <th class="footable-sortable">Title<span class="footable-sort-indicator"></span></th>
-                                            <th class="footable-sortable">Date Added<span class="footable-sort-indicator"></span></th>
-                                            <th class="footable-sortable">Potential Opens<span class="footable-sort-indicator"></span></th>
-                                            <th class="footable-sortable">Not Opened<span class="footable-sort-indicator"></span></th>
-                                            <th class="footable-sortable">Actual Opens<span class="footable-sort-indicator"></span></th>
-                                            <th class="footable-sortable">Quality Score<span class="footable-sort-indicator"></span></th>
-
+                                            <th class="footable-sortable">Thumbnail</th>
+                                            <th class="footable-sortable">Stars</th>
+                                            <th class="footable-sortable">Category</th>
+                                            <th class="footable-sortable">User</th>
+                                            <th class="footable-sortable">Date & Time</th>
+                                            <th class="footable-sortable">Actions</th>
                                         </tr>
                                         </thead>
                                         <tbody>
                                         <tr style="" class="footable-even">
                                             <td>
-                                                <a href="javascript:void(0)"> Weather Update</a>
+                                                <a href="javascript:void(0)"><img src="assets/images/users/5.jpg" alt="user" width="68" class="img-round"></a>
                                             </td>
-                                            <td>1/18/18</td>
-                                            <td>3 </td>
-                                            <td>23</td>
-                                            <td>99</td>
-                                            <td>100%</td>
+                                            <td>0</td>
+                                            <td>
+                                                <select class="custom-select col-12" id="inlineFormCustomSelect">
+                                                    <option selected="">Filter Categoy</option>
+                                                    <option value="1">Social</option>
+                                                    <option value="2">Internal</option>
+                                                    <option value="3">Archive</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <img src="assets/images/users/5.jpg" alt="user" width="62" class="img-circle">
+                                                <br>
+                                                Arijit Singh
+                                            </td>
+                                            <td>
+                                                <div class="date_time">
+                                                    <img src="assets/images/media/calendar.png" style="margin-right: 20px;">
+                                                Jan 24, 2018
+                                                <br>
+                                                    <img src="assets/images/media/clock.png" style="margin-right: 20px;">
+                                                2:36 PM UTC
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="margin-top:15px;">
+                                                    <a href=""><img src="assets/images/media/edit.png" style="margin-right: 20px;"></a>
+                                                    <a href=""><img src="assets/images/media/download.png" style="margin-right: 20px;"></a>
+                                                    <a href=""><img src="assets/images/media/trash.png"></a>
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr style="" class="footable-odd">
                                             <td>
-                                                <a href="javascript:void(0)"> Weather Update</a>
+                                                <a href="javascript:void(0)"><img src="assets/images/users/5.jpg" alt="user" width="68" class="img-round"></a>
                                             </td>
-                                            <td>1/18/18</td>
-                                            <td>3 </td>
-                                            <td>23</td>
-                                            <td>99</td>
-                                            <td>100%</td>
+                                            <td>0</td>
+                                            <td>
+                                                <select class="custom-select col-12" id="inlineFormCustomSelect">
+                                                    <option selected="">Filter Categoy</option>
+                                                    <option value="1">Social</option>
+                                                    <option value="2">Internal</option>
+                                                    <option value="3">Archive</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <img src="assets/images/users/5.jpg" alt="user" width="62" class="img-circle">
+                                                <br>
+                                                Arijit Singh
+                                            </td>
+                                            <td>
+                                                <div class="date_time">
+                                                    <img src="assets/images/media/calendar.png" style="margin-right: 20px;">
+                                                    Jan 24, 2018
+                                                    <br>
+                                                    <img src="assets/images/media/clock.png" style="margin-right: 20px;">
+                                                    2:36 PM UTC
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="margin-top:15px;">
+                                                    <a href=""><img src="assets/images/media/edit.png" style="margin-right: 20px;"></a>
+                                                    <a href=""><img src="assets/images/media/download.png" style="margin-right: 20px;"></a>
+                                                    <a href=""><img src="assets/images/media/trash.png"></a>
+                                                </div>
+                                            </td>
                                         </tr>
                                         <tr style="" class="footable-even">
                                             <td>
-                                                <a href="javascript:void(0)"> Weather Update</a>
+                                                <a href="javascript:void(0)"><img src="assets/images/users/5.jpg" alt="user" width="68" class="img-round"></a>
                                             </td>
-                                            <td>1/18/18</td>
-                                            <td>3 </td>
-                                            <td>23</td>
-                                            <td>99</td>
-                                            <td>100%</td>
-                                        </tr>
-                                        <tr style="" class="footable-even">
+                                            <td>0</td>
                                             <td>
-                                                <a href="javascript:void(0)"> Weather Update</a>
+                                                <select class="custom-select col-12" id="inlineFormCustomSelect">
+                                                    <option selected="">Filter Categoy</option>
+                                                    <option value="1">Social</option>
+                                                    <option value="2">Internal</option>
+                                                    <option value="3">Archive</option>
+                                                </select>
                                             </td>
-                                            <td>1/18/18</td>
-                                            <td>3 </td>
-                                            <td>23</td>
-                                            <td>99</td>
-                                            <td>100%</td>
+                                            <td>
+                                                <img src="assets/images/users/5.jpg" alt="user" width="62" class="img-circle">
+                                                <br>
+                                                Arijit Singh
+                                            </td>
+                                            <td>
+                                                <div class="date_time">
+                                                    <img src="assets/images/media/calendar.png" style="margin-right: 20px;">
+                                                    Jan 24, 2018
+                                                    <br>
+                                                    <img src="assets/images/media/clock.png" style="margin-right: 20px;">
+                                                    2:36 PM UTC
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="margin-top:15px;">
+                                                    <a href=""><img src="assets/images/media/edit.png" style="margin-right: 20px;"></a>
+                                                    <a href=""><img src="assets/images/media/download.png" style="margin-right: 20px;"></a>
+                                                    <a href=""><img src="assets/images/media/trash.png"></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr style="" class="footable-odd">
+                                            <td>
+                                                <a href="javascript:void(0)"><img src="assets/images/users/5.jpg" alt="user" width="68" class="img-round"></a>
+                                            </td>
+                                            <td>0</td>
+                                            <td>
+                                                <select class="custom-select col-12" id="inlineFormCustomSelect">
+                                                    <option selected="">Filter Categoy</option>
+                                                    <option value="1">Social</option>
+                                                    <option value="2">Internal</option>
+                                                    <option value="3">Archive</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <img src="assets/images/users/5.jpg" alt="user" width="62" class="img-circle">
+                                                <br>
+                                                Arijit Singh
+                                            </td>
+                                            <td>
+                                                <div class="date_time">
+                                                    <img src="assets/images/media/calendar.png" style="margin-right: 20px;">
+                                                    Jan 24, 2018
+                                                    <br>
+                                                    <img src="assets/images/media/clock.png" style="margin-right: 20px;">
+                                                    2:36 PM UTC
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="margin-top:15px;">
+                                                    <a href=""><img src="assets/images/media/edit.png" style="margin-right: 20px;"></a>
+                                                    <a href=""><img src="assets/images/media/download.png" style="margin-right: 20px;"></a>
+                                                    <a href=""><img src="assets/images/media/trash.png"></a>
+                                                </div>
+                                            </td>
                                         </tr>
 
                                         </tbody>

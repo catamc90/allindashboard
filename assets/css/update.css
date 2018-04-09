@@ -217,3 +217,18 @@ button.bg-orange:hover {
     margin-right: 0px;
 }
 
+
+
+/** Media **/
+.img-round {
+    border-radius: 10px;
+}
+
+.date_time {
+     margin-top:15px;
+}
+
+.date_time>img {
+    margin-right: 20px;
+    opacity: 0.3;
+}

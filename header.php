@@ -166,7 +166,7 @@
 <!--                    <li> <a class="has-arrow waves-effect waves-dark" href="media.php" ><i class="fas fa-images fa-lg"></i><span class="hide-menu"> Media</span></a></li>-->
 
 
-                    <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-newspaper fa-lg"></i><span class="hide-menu"> News</span></a>
+                    <li><a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-newspaper fa-lg"></i><span class="hide-menu"> News</span></a>
                     </li>
 
                     <li><a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-bell fa-lg"></i><span class="hide-menu"> Alerts</span></a>
