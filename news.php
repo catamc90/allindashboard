@@ -35,14 +35,13 @@ include 'header.php';
                 <div class="card">
                     <div class="card-body">
 
-                        <div class="" >
+                        <div class="newscharts" >
 
 
                             <input data-plugin="knob" data-linecap="butt" data-fgcolor="#b457ff" value="24%"
                                    data-skin="tron" data-angleoffset="180" data-readonly="true" data-thickness=".1"
                                    readonly="readonly"
                                    >
-
 
 
                             <input data-plugin="knob" data-linecap="butt" data-fgcolor="#f4e219" value="30%"
@@ -67,24 +66,24 @@ include 'header.php';
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">NEWS | Total News</h4>
+                        <h4 class="card-title">ALERTS | Total Alerts</h4>
                         <!--                                <h6 class="card-subtitle">Add class <code>.table</code></h6>-->
 
-                        <h5 class="m-t-30">Jan<span class="pull-right">25%</span></h5>
+                        <h5 class="m-t-30">Jan</h5>
                         <div class="progress ">
-                            <div class="progress-bar bg-success wow animated progress-animated" style="width: 25%; height:6px;" role="progressbar"> <span class="sr-only">25% Complete</span> </div>
+                            <div class="progress-bar bg-success wow animated progress-animated" style="width: 25%; height:6px;" role="progressbar"> <span class="sr-only">25 Complete</span> </div>
                         </div>
-                        <h5 class="m-t-30">Feb<span class="pull-right">90%</span></h5>
+                        <h5 class="m-t-30">Feb</h5>
                         <div class="progress">
-                            <div class="progress-bar bg-success wow animated progress-animated" style="width: 90%; height:6px;" role="progressbar"> <span class="sr-only">60% Complete</span> </div>
+                            <div class="progress-bar bg-success wow animated progress-animated" style="width: 90%; height:6px;" role="progressbar"> <span class="sr-only">60 Complete</span> </div>
                         </div>
-                        <h5 class="m-t-30">Mar<span class="pull-right">65%</span></h5>
+                        <h5 class="m-t-30">Mar</h5>
                         <div class="progress">
-                            <div class="progress-bar bg-success wow animated progress-animated" style="width: 65%; height:6px;" role="progressbar"> <span class="sr-only">60% Complete</span> </div>
+                            <div class="progress-bar bg-success wow animated progress-animated" style="width: 65%; height:6px;" role="progressbar"> <span class="sr-only">60 Complete</span> </div>
                         </div>
-                        <h5 class="m-t-30">Mar<span class="pull-right">60%</span></h5>
+                        <h5 class="m-t-30">Mar</h5>
                         <div class="progress">
-                            <div class="progress-bar bg-success wow animated progress-animated" style="width: 60%; height:6px;" role="progressbar"> <span class="sr-only">60% Complete</span> </div>
+                            <div class="progress-bar bg-success wow animated progress-animated" style="width: 60%; height:6px;" role="progressbar"> <span class="sr-only">60 Complete</span> </div>
                         </div>
 
                         <div><hr style="border-top: 2px solid rgba(0, 0, 0, .1)">
@@ -98,8 +97,8 @@ include 'header.php';
                                 <li>60</li>
                                 <li>70</li>
                                 <li>80</li>
-                                <li>90</li>
-                                <li>100</li>
+                                <!--                                        <li>90</li>-->
+                                <!--                                        <li>100</li>-->
                             </ul>
                         </div>
                     </div>

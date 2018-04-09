@@ -157,7 +157,7 @@
                             <li><a href="users.php">Users</a></li>
                             <li><a href="leaderboard.php">Leaderboard</a></li>
                             <li><a href="news.php">News</a></li>
-                            <li><a href="">Alerts</a></li>
+                            <li><a href="alerts.php">Alerts</a></li>
                         </ul>
                     </li>
 

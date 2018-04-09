@@ -191,7 +191,7 @@ button.bg-orange:hover {
 
 .procentaj2 li {
     display: inline;
-    margin-right: 48.6px;
+    margin-right: 67px;
     font-family: Montserrat;
     font-weight: 700;
 }
@@ -204,6 +204,16 @@ button.bg-orange:hover {
 }
 
 
+.newscharts {
+    margin-top:60px;
+}
 
+.newscharts>div {
 
+    margin-right: 40px;
+}
+
+.newscharts>div:last-child {
+    margin-right: 0px;
+}
 
