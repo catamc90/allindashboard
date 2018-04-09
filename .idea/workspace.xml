@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5fe479e-3b32-4943-b2ca-bbace99139dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media-edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/update.css" afterPath="$PROJECT_DIR$/assets/css/update.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media-edit.php" afterPath="$PROJECT_DIR$/media-edit.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="media-edit.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/media-edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="79" column="109" lean-forward="false" selection-start-line="79" selection-start-column="109" selection-end-line="79" selection-end-column="109" />
+            <state relative-caret-position="688">
+              <caret line="123" column="87" lean-forward="true" selection-start-line="123" selection-start-column="87" selection-end-line="123" selection-end-column="87" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -238,12 +236,12 @@
       <workItem from="1523160441188" duration="7167000" />
       <workItem from="1523183588155" duration="670000" />
       <workItem from="1523270087949" duration="9018000" />
-      <workItem from="1523282188752" duration="19610000" />
+      <workItem from="1523282188752" duration="20064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77612000" />
+    <option name="totallyTimeSpent" value="78066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -707,8 +705,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/media-edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="79" column="109" lean-forward="false" selection-start-line="79" selection-start-column="109" selection-end-line="79" selection-end-column="109" />
+        <state relative-caret-position="688">
+          <caret line="123" column="87" lean-forward="true" selection-start-line="123" selection-start-column="87" selection-end-line="123" selection-end-column="87" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>

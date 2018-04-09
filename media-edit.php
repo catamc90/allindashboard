@@ -91,6 +91,49 @@ include 'header.php';
                                             <div class="col-sm-10">
                                                 <img src="assets/images/media/city.png">
                                             </div>
+<!--                                            <button type="button" class="btn btn-info btn-rounded" data-toggle="modal" data-target="#add-contact">Add New Contact</button>-->
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal" class="btn btn-info text-white">Modal</a>
+                                        </div>
+
+                                        <div id="myModal" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h4 class="modal-title" id="myModalLabel">NEED MORE INFO?</h4>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <from class="form-horizontal">
+
+                                                            <div class="form-group">
+<!--                                                                <label class="col-md-12">Select Number of people</label>-->
+                                                                <div class="col-md-12">
+                                                                    <select class="form-control">
+                                                                        <option>John</option>
+                                                                        <option>10</option>
+                                                                        <option>20</option>
+                                                                        <option>30</option>
+                                                                        <option>40</option>
+                                                                        <option>Custome</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="form-group">
+<!--                                                                <label class="col-md-12">Name of Label</label>-->
+                                                                <div class="col-md-12">
+                                                                    <input type="textarea" class="form-control" placeholder="Your message here"> </div>
+                                                            </div>
+                                                        </from>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-info waves-effect" data-dismiss="modal">Save</button>
+                                                        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Cancel</button>
+                                                    </div>
+                                                </div>
+                                                <!-- /.modal-content -->
+                                            </div>
+                                            <!-- /.modal-dialog -->
                                         </div>
 
 
