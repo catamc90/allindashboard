@@ -3,7 +3,7 @@
 <!-- footer -->
 <!-- ============================================================== -->
 <footer class="footer">
-    AllInDashBoard
+<!--    AllInDashBoard-->
 </footer>
 <!-- ============================================================== -->
 <!-- End footer -->
@@ -46,6 +46,21 @@
 <!-- date -->
 <script src="./assets/js/moment.js"></script>
 <script src="./assets/js/bootstrap-material-datetimepicker.js"></script>
+
+<!-- news.php-->
+<script src="./assets/js/jquery.knob.js"></script>
+<script>
+    $(function() {
+        $('[data-plugin="knob"]').knob();
+    });
+</script>
+<script>
+    $(function() {
+        $(".dial").knob();
+    });
+</script>
+<!-- end news.php-->
+
 
 <!-- Date Picker Plugin JavaScript -->
 <script src="./assets/js/bootstrap-datepicker.min.js"></script>

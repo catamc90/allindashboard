@@ -17,6 +17,8 @@
     <link href="./jquery.toast.css" rel="stylesheet"> -->
     <!-- Custom CSS -->
     <link href="./assets/css/style.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
     <!-- Dashboard 1 Page CSS -->
     <link href="./assets/css/dashboard1.css" rel="stylesheet">
     <link href="./assets/css/update.css" rel="stylesheet">
@@ -29,7 +31,7 @@
     <!-- end users.php-->
 
     <!--news.php-->
-    <link href="./assets/css/css-chart.css" rel="stylesheet">
+<!--    <link href="./assets/css/css-chart.css" rel="stylesheet">-->
     <!--end news-->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -67,16 +69,16 @@
                     <!-- Logo icon --><b>
                         <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                         <!-- Dark Logo icon -->
-                        <img src="" alt="homepage" class="dark-logo">
+                        <img src="assets/images/sign1.png" alt="homepage" class="dark-logo">
                         <!-- Light Logo icon -->
-                        <img src="./assets/images/sign1.png" alt="homepage" class="light-logo">
+                        <img src="assets/images/sign1.png" alt="homepage" class="light-logo">
                     </b>
                     <!--End Logo icon -->
                     <!-- Logo text --><span style="display: none;">
                          <!-- dark Logo text -->
-                         <img src="" alt="homepage" class="dark-logo">
+                         <img src="assets/images/sign1.png" alt="homepage" class="dark-logo">
                         <!-- Light Logo text -->
-                         <img src="" class="light-logo" alt="homepage"></span> </a>
+                         <img src="assets/images/sign1.png" class="light-logo" alt="homepage"></span> </a>
             </div>
             <!-- ============================================================== -->
             <!-- End Logo -->
@@ -87,8 +89,8 @@
                 <!-- ============================================================== -->
                 <ul class="navbar-nav mr-auto">
                     <!-- This is  -->
-                    <li class="nav-item"> <a class="nav-link nav-toggler d-block d-sm-none waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
-                    <li class="nav-item"> <a class="nav-link sidebartoggler d-none d-lg-block d-md-block waves-effect waves-dark" href="javascript:void(0)"><i class="fas fa-bars fa-2x"></i></a> </li>
+                    <li class="nav-item"> <a class="nav-link nav-toggler d-block d-sm-none waves-effect waves-dark" href="javascript:void(0)"><i class="fas fa-bars fa-2x"></i></a> </li>
+<!--                    <li class="nav-item"> <a class="nav-link sidebartoggler d-none d-lg-block d-md-block waves-effect waves-dark" href="javascript:void(0)"><i class="fas fa-bars fa-2x"></i></a> </li>-->
                     <!-- ============================================================== -->
                     <!-- Search -->
                     <!-- ============================================================== -->
@@ -109,24 +111,21 @@
                     <!-- ============================================================== -->
                     <li class="nav-item dropdown u-pro">
                         <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img src="./assets/images/1.jpg" alt="user" class="">
-                            <span class="hidden-md-down">Hello, Kelly! &nbsp;<i class="fa fa-angle-down"></i></span> </a>
+
+                            <span class="hidden-md-down">Hello, <strong>Kelly!</strong> &nbsp;</span>
+                            <img src="./assets/images/1.jpg" alt="user" class="img-circle">
+                            <span class="badgehh badge-default"><span class="txt"> 7 </span></span>
+                        </a>
                         <div class="dropdown-menu dropdown-menu-right animated flipInY">
                             <!-- text-->
-                            <a href="javascript:void(0)" class="dropdown-item"><i class="ti-user"></i> My Profile</a>
+                            <a href="javascript:void(0)" class="dropdown-item"> NOTIFICATIONS <span class="badge-dropdown"><span class="txt"> 7 </span></span></a>
                             <!-- text-->
-                            <a href="javascript:void(0)" class="dropdown-item"><i class="ti-wallet"></i> My Balance</a>
+                            <a href="javascript:void(0)" class="dropdown-item">SETTINGS</a>
                             <!-- text-->
-                            <a href="javascript:void(0)" class="dropdown-item"><i class="ti-email"></i> Inbox</a>
+                            <a href="javascript:void(0)" class="dropdown-item">FEEDBACK</a>
                             <!-- text-->
-                            <div class="dropdown-divider"></div>
-                            <!-- text-->
-                            <a href="javascript:void(0)" class="dropdown-item"><i class="ti-settings"></i> Account Setting</a>
-                            <!-- text-->
-                            <div class="dropdown-divider"></div>
-                            <!-- text-->
-                            <a href="" class="dropdown-item"><i class="fa fa-power-off"></i> Logout</a>
-                            <!-- text-->
+                            <a href="javascript:void(0)" class="dropdown-item">LOGOUT</a>
+
                         </div>
                     </li>
                     <!-- ============================================================== -->
@@ -151,27 +150,26 @@
                 <ul id="sidebarnav">
 
                     <li class="active"> <a class="has-arrow waves-effect waves-dark active" href="javascript:void(0)" aria-expanded="false">
-                            <i class="fas fa-th-large fa-2x"></i><span class="hide-menu"> Dashboard
+                            <i class="fas fa-th-large fa-lg"></i><span class="hide-menu"> Dashboard
                             <span class="badge badge-pill badge-cyan ml-auto">5</span></span></a>
                         <ul aria-expanded="false" class="collapse in">
-                            <li class="active"><a href="" class="active">Overview </a></li>
-                            <li><a href="">Users</a></li>
-                            <li><a href="">Leaderboard</a></li>
-                            <li><a href="">Content</a></li>
-                            <li><a href="">News</a></li>
+                            <li class="active"><a href="index.php" class="active">Overview </a></li>
+                            <li><a href="users.php">Users</a></li>
+                            <li><a href="leaderboard.php">Leaderboard</a></li>
+                            <li><a href="news.php">News</a></li>
                             <li><a href="">Alerts</a></li>
                         </ul>
                     </li>
 
-                    <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-images fa-2x"></i><span class="hide-menu"> Media</span></a>
+                    <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-images fa-lg"></i><span class="hide-menu"> Media</span></a>
                     </li>
-                    <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-newspaper fa-2x"></i><span class="hide-menu"> News</span></a>
-                    </li>
-
-                    <li><a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-bell fa-2x"></i><span class="hide-menu">Alerts</span></a>
+                    <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-newspaper fa-lg"></i><span class="hide-menu"> News</span></a>
                     </li>
 
-                    <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-users fa-2x"></i><span class="hide-menu">Settings</span></a>
+                    <li><a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-bell fa-lg"></i><span class="hide-menu"> Alerts</span></a>
+                    </li>
+
+                    <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-users fa-lg"></i><span class="hide-menu">Settings</span></a>
                     </li>
 
                 </ul>

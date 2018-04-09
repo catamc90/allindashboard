@@ -1,3 +1,84 @@
+/** fonts
+
+ */
+
+/** icons **/
+.pickcalendar {
+    height: 30px;
+}
+
+/** index.php
+
+ */
+
+/** procentaj
+
+ */
+
+.procentaj1 {
+    list-style-type: none;
+    margin-bottom: 0rem !important;
+    padding: 0 !important;
+}
+
+.procentaj1 li {
+    display: inline;
+    margin-right: 50px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.procentaj1 li:last-child {
+    display: inline;
+    margin-right: 0px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.procentaj1-bg1 {
+    background-color: #fd5b98;
+}
+
+.procentaj1-bg2 {
+    background-color: #d90354;
+}
+
+/** end **/
+
+.display-4 {
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.text-themecolor {
+    color:#ef4b27;
+}
+
+.whitebg {
+    background-color: #fff;
+    position: relative;
+    /*display: flex;*/
+
+    flex: 1 1 auto;
+    padding: 20px 8px;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.whitebg_card {
+
+}
+
+.roundcorners {
+    border-radius: 10px!important;
+    box-shadow: 5px 2px 18px 10px #ebebeb;
+}
+
 .bg-blue {
     background-color: #1957f4!important
 }
@@ -54,6 +135,12 @@ button.bg-orange:hover {
     margin-left: 60px;
     padding-right: 10px;
     padding-bottom: 20px;
+    /*opacity: 0.7;*/
+    font-weight: 700;
+}
+.border-activity img {
+    height: 32px;
+    width:auto;
     opacity: 0.7;
 }
 
@@ -92,3 +179,31 @@ button.bg-orange:hover {
 .fa-star {
     color:#ffde00;
 }
+
+
+
+/*** News ***/
+.procentaj2 {
+    list-style-type: none;
+    margin-bottom: 0rem !important;
+    padding: 0 !important;
+}
+
+.procentaj2 li {
+    display: inline;
+    margin-right: 48.6px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.procentaj2 li:last-child {
+    display: inline;
+    margin-right: 0px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+
+
+
+

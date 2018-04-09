@@ -15,51 +15,50 @@ include 'header.php';
                 <!-- Bread crumb and right sidebar toggle -->
                 <!-- ============================================================== -->
                 <div class="row page-titles">
-                    <div class="col-md-5 align-self-center">
-                        <h4 class="text-themecolor">OVERVIEW</h4>
+                    <div class="col-md-5 text-left">
+                        <h2 class="text-themecolor">OVERVIEW</h2>
                     </div>
                 </div>
 
 
-
-                <div class="row page-titles">
-                    <div class="col-md-5 col-sm-12 align-self-center">
-                        <h4 class="text-themecolor">ACTIVITY</h4>
-                    </div>
-                    <div class="col-md-7 col-sm-12 align-self-center text-right">
-                        <div class="d-flex justify-content-end align-items-center">
-
-<!--                            <div class="input-group">-->
-<!--                                <input type="text" class="form-control" id="datepicker-autoclose" placeholder="Date Range">-->
-<!--                                <div class="input-group-append">-->
-<!--                                    <span class="input-group-text"><i class="fas fa-calendar-alt fa-sm"></i></span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="input-group">
-                                    <input type="text" class="form-control mydatepicker" placeholder="Date Range">
-                                    <div class="input-group-append">
-                                        <span class="input-group-text"><i class="fas fa-calendar-alt fa-sm"></i></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <span> Duration: </span>
-                                <button type="button" class="btn waves-effect waves-light btn-secondary">30 d </button>
-                                <button type="button" class="btn waves-effect waves-light btn-secondary"> 6 m </button>
-                                <button type="button" class="btn waves-effect waves-light btn-secondary"> 12 m </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
 
 
                 <div class="row">
-
                     <div class="col-lg-12 col-md-12">
-                        <div class="row">
+                        <div class="row whitebg roundcorners" >
+
+                            <div class="col-md-5 col-sm-12 align-self-center">
+                                <h4 class="">ACTIVITY</h4>
+                            </div>
+                            <div class="col-md-7 col-sm-12 align-self-center text-right">
+                                <div class="d-flex justify-content-end align-items-center">
+
+
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control mydatepicker" placeholder="Date Range">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text"><img src="assets/images/calendar.png" class="pickcalendar"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <span> Duration: </span>
+                                        <button type="button" class="btn waves-effect waves-light btn-secondary">30 d </button>
+                                        <button type="button" class="btn waves-effect waves-light btn-secondary"> 6 m </button>
+                                        <button type="button" class="btn waves-effect waves-light btn-secondary"> 12 m </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <br>
+<!--                                <br><div class="pickcalendar">cc</div>-->
+                            </div>
+
                             <!-- Column -->
+<!--                            <div class="whitebg">-->
 
                             <div class="col">
                                 <div class="card bg-blue text-white">
@@ -75,7 +74,7 @@ include 'header.php';
                                                 <div class="border-activity">
                                                     <div class=" text-right " >
                                                         <b class="text-white">PARTICIPATOR SCORE</b>
-                                                        <i class="fas fa-list-alt fa-2x"></i>
+                                                        <img src="assets/images/owerview/1.png">
                                                     </div>
                                                 </div>
                                             </div>
@@ -100,7 +99,7 @@ include 'header.php';
                                                 <div class="border-activity">
                                                     <div class=" text-right " >
                                                         <b class="text-white">PARTICIPATOR SCORE</b>
-                                                        <i class="fas fa-list-alt fa-2x"></i>
+                                                        <img src="assets/images/owerview/2.png">
                                                     </div>
                                                 </div>
                                             </div>
@@ -125,7 +124,7 @@ include 'header.php';
                                                 <div class="border-activity">
                                                     <div class=" text-right " >
                                                         <b class="text-white">PARTICIPATOR SCORE</b>
-                                                        <i class="fas fa-list-alt fa-2x"></i>
+                                                        <img src="assets/images/owerview/3.png">
                                                     </div>
                                                 </div>
                                             </div>
@@ -150,7 +149,7 @@ include 'header.php';
                                                 <div class="border-activity">
                                                     <div class=" text-right " >
                                                         <b class="text-white">PARTICIPATOR SCORE</b>
-                                                        <i class="fas fa-list-alt fa-2x"></i>
+                                                        <img src="assets/images/owerview/4.png">
                                                     </div>
                                                 </div>
                                             </div>
@@ -175,7 +174,7 @@ include 'header.php';
                                                 <div class="border-activity">
                                                     <div class=" text-right " >
                                                         <b class="text-white">PARTICIPATOR SCORE</b>
-                                                        <i class="fas fa-list-alt fa-2x"></i>
+                                                        <img src="assets/images/owerview/5.png">
                                                     </div>
                                                 </div>
                                             </div>
@@ -185,6 +184,8 @@ include 'header.php';
                             </div>
                             <!-- Column -->
 
+
+
                         </div>
                     </div>
 
@@ -192,26 +193,42 @@ include 'header.php';
 
                     <!-- Weekley Submision -->
                     <div class="col-lg-6">
-                        <div class="card">
+                        <div class="card roundcorners">
                             <div class="card-body">
                                 <h4 class="card-title">WEEKLY SUBMISSIONS</h4>
 <!--                                <h6 class="card-subtitle">Add class <code>.table</code></h6>-->
 
                                 <h5 class="m-t-30">Week 1<span class="pull-right">85%</span></h5>
                                 <div class="progress ">
-                                    <div class="progress-bar bg-danger wow animated progress-animated" style="width: 85%; height:6px;" role="progressbar"> <span class="sr-only">60% Complete</span> </div>
+                                    <div class="progress-bar procentaj1-bg1 wow animated progress-animated" style="width: 85%; height:10px;" role="progressbar"> <span class="sr-only">60% Complete</span> </div>
                                 </div>
                                 <h5 class="m-t-30">Week 2<span class="pull-right">90%</span></h5>
                                 <div class="progress">
-                                    <div class="progress-bar bg-info wow animated progress-animated" style="width: 90%; height:6px;" role="progressbar"> <span class="sr-only">60% Complete</span> </div>
+                                    <div class="progress-bar procentaj1-bg2 wow animated progress-animated" style="width: 90%; height:10px;" role="progressbar"> <span class="sr-only">60% Complete</span> </div>
                                 </div>
-                                <h5 class="m-t-30">Week 3<span class="pull-right">65%</span></h5>
+                                <h5 class="m-t-30">Week 3<span class="pull-right">70%</span></h5>
                                 <div class="progress">
-                                    <div class="progress-bar bg-success wow animated progress-animated" style="width: 65%; height:6px;" role="progressbar"> <span class="sr-only">60% Complete</span> </div>
+                                    <div class="progress-bar procentaj1-bg1 wow animated progress-animated" style="width: 70%; height:10px;" role="progressbar"> <span class="sr-only">70% Complete</span> </div>
                                 </div>
-                                <h5 class="m-t-30">Week 4<span class="pull-right">65%</span></h5>
+                                <h5 class="m-t-30">Week 4<span class="pull-right">60%</span></h5>
                                 <div class="progress">
-                                    <div class="progress-bar bg-danger wow animated progress-animated" style="width: 65%; height:6px;" role="progressbar"> <span class="sr-only">60% Complete</span> </div>
+                                    <div class="progress-bar procentaj1-bg2 wow animated progress-animated" style="width: 60%; height:10px;" role="progressbar"> <span class="sr-only">60% Complete</span> </div>
+                                </div>
+
+                                <div><hr style="border-top: 2px solid rgba(0, 0, 0, .1)">
+                                    <ul class="procentaj1" >
+                                        <li>0</li>
+                                        <li>10</li>
+                                        <li>20</li>
+                                        <li>30</li>
+                                        <li>40</li>
+                                        <li>50</li>
+                                        <li>60</li>
+                                        <li>70</li>
+                                        <li>80</li>
+                                        <li>90</li>
+                                        <li>100</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -219,7 +236,7 @@ include 'header.php';
 
 
                     <div class="col-lg-6">
-                        <div class="card">
+                        <div class="card roundcorners">
                             <div class="card-body">
                                     <h4 class="card-title">PARTICIPATOR SCORE</h4>
                                     <div class="message-box">

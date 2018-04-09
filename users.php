@@ -14,51 +14,80 @@ include 'header.php';
         <!-- ============================================================== -->
         <!-- Bread crumb and right sidebar toggle -->
         <!-- ============================================================== -->
+
+
         <div class="row page-titles">
-            <div class="col-md-5 align-self-center">
-                <h4 class="text-themecolor">USERS</h4>
+            <div class="col-md-5 text-left">
+                <h2 class="text-themecolor">USERS</h2>
             </div>
         </div>
 
 
 
-        <div class="row page-titles">
-            <div class="col-md-5 col-sm-12 align-self-center">
-                <h4 class="text-themecolor">ACTIVITY</h4>
-            </div>
-            <div class="col-md-7 col-sm-12 align-self-center text-right">
-                <div class="d-flex justify-content-end align-items-center">
-
-                    <!--                            <div class="input-group">-->
-                    <!--                                <input type="text" class="form-control" id="datepicker-autoclose" placeholder="Date Range">-->
-                    <!--                                <div class="input-group-append">-->
-                    <!--                                    <span class="input-group-text"><i class="fas fa-calendar-alt fa-sm"></i></span>-->
-                    <!--                                </div>-->
-                    <!--                            </div>-->
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="input-group">
-                            <input type="text" class="form-control mydatepicker" placeholder="Date Range">
-                            <div class="input-group-append">
-                                <span class="input-group-text"><i class="fas fa-calendar-alt fa-sm"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <span> Duration: </span>
-                        <button type="button" class="btn waves-effect waves-light btn-secondary">30 d </button>
-                        <button type="button" class="btn waves-effect waves-light btn-secondary"> 6 m </button>
-                        <button type="button" class="btn waves-effect waves-light btn-secondary"> 12 m </button>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!--        <div class="row page-titles">-->
+<!--            <div class="col-md-5 col-sm-12 align-self-center">-->
+<!--                <h4 class="text-themecolor">ACTIVITY</h4>-->
+<!--            </div>-->
+<!--            <div class="col-md-7 col-sm-12 align-self-center text-right">-->
+<!--                <div class="d-flex justify-content-end align-items-center">-->
+<!---->
+<!---->
+<!--                    <div class="col-lg-3 col-md-6 col-sm-12">-->
+<!--                        <div class="input-group">-->
+<!--                            <input type="text" class="form-control mydatepicker" placeholder="Date Range">-->
+<!--                            <div class="input-group-append">-->
+<!--                                <span class="input-group-text"><i class="fas fa-calendar-alt fa-sm"></i></span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-6 col-md-6 col-sm-12">-->
+<!--                        <span> Duration: </span>-->
+<!--                        <button type="button" class="btn waves-effect waves-light btn-secondary">30 d </button>-->
+<!--                        <button type="button" class="btn waves-effect waves-light btn-secondary"> 6 m </button>-->
+<!--                        <button type="button" class="btn waves-effect waves-light btn-secondary"> 12 m </button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
 
 
 
         <div class="row">
 
             <div class="col-lg-12 col-md-12">
-                <div class="row">
+                <div class="row whitebg roundcorners">
+
+                    <div class="col-md-5 col-sm-12 align-self-center">
+                        <h4 class="">ACTIVITY</h4>
+                    </div>
+                    <div class="col-md-7 col-sm-12 align-self-center text-right">
+                        <div class="d-flex justify-content-end align-items-center">
+
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="input-group">
+                                    <input type="text" class="form-control mydatepicker" placeholder="Date Range">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><img src="assets/images/calendar.png" class="pickcalendar"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <span> Duration: </span>
+                                <button type="button" class="btn waves-effect waves-light btn-secondary">30 d </button>
+                                <button type="button" class="btn waves-effect waves-light btn-secondary"> 6 m </button>
+                                <button type="button" class="btn waves-effect waves-light btn-secondary"> 12 m </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <br>
+                        <!--                                <br><div class="pickcalendar">cc</div>-->
+                    </div>
+
+
+
                     <!-- Column -->
 
                     <div class="col">

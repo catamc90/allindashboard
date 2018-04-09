@@ -44,40 +44,40 @@ html {
     -webkit-tap-highlight-color: transparent
 }
 
-@font-face {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 300;
-    src: local('Poppins Light'), local('Poppins-Light'), url(https://fonts.gstatic.com/s/poppins/v5/D2gN9uyZ9Ucx1fJ1Fhb7sy3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')
-}
+/*@font-face {*/
+    /*font-family: Poppins;*/
+    /*font-style: normal;*/
+    /*font-weight: 300;*/
+    /*src: local('Poppins Light'), local('Poppins-Light'), url(https://fonts.gstatic.com/s/poppins/v5/D2gN9uyZ9Ucx1fJ1Fhb7sy3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')*/
+/*}*/
 
-@font-face {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 400;
-    src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v5/TDTjCH39JjVycIF24TlO-Q.ttf) format('truetype')
-}
+/*@font-face {*/
+    /*font-family: Poppins;*/
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    /*src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v5/TDTjCH39JjVycIF24TlO-Q.ttf) format('truetype')*/
+/*}*/
 
-@font-face {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v5/yQWaOD4iNU5NTY0apN-qjy3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')
-}
+/*@font-face {*/
+    /*font-family: Poppins;*/
+    /*font-style: normal;*/
+    /*font-weight: 500;*/
+    /*src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v5/yQWaOD4iNU5NTY0apN-qjy3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')*/
+/*}*/
 
-@font-face {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v5/zO07Oxe3SOlw0l2YX2sdIS3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')
-}
+/*@font-face {*/
+    /*font-family: Poppins;*/
+    /*font-style: normal;*/
+    /*font-weight: 600;*/
+    /*src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v5/zO07Oxe3SOlw0l2YX2sdIS3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')*/
+/*}*/
 
-@font-face {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 700;
-    src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v5/57TQ-anwthzkETEIO4jESC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')
-}
+/*@font-face {*/
+    /*font-family: Poppins;*/
+    /*font-style: normal;*/
+    /*font-weight: 700;*/
+    /*src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v5/57TQ-anwthzkETEIO4jESC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype')*/
+/*}*/
 
 
 /*!
@@ -85,13 +85,7 @@ html {
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 
-@font-face {
-    font-family: FontAwesome;
-    src: url(../../../assets/icons/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0);
-    src: url(../../../assets/icons/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(../../../assets/icons/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(../../../assets/icons/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(../../../assets/icons/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(../../../assets/icons/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
-    font-weight: 400;
-    font-style: normal
-}
+
 
 .fa {
     font: normal normal normal 14px/1 FontAwesome;
@@ -16060,6 +16054,10 @@ legend {
     border-left: 3px solid #01c0c8
 }
 
+.topbar {
+    background: #ffffff
+}
+
 .skin-purple .topbar {
     background: #ffffff
 }
@@ -16486,9 +16484,9 @@ html {
 }
 
 body {
-    font-family: Poppins, sans-serif;
+    font-family: Montserrat, sans-serif;
     line-height: 1.5;
-    color: #212529;
+    color: #818181;
     background-color: #f8f8f8
 }
 
@@ -16758,8 +16756,8 @@ h4,
 h5,
 h6 {
     margin-bottom: .5rem;
-    font-family: Poppins, sans-serif;
-    font-weight: 300;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
     line-height: 1.2;
     color: inherit
 }
@@ -19386,16 +19384,16 @@ tbody.collapse.show {
     padding: .5rem 0;
     margin: .125rem 0 0;
     font-size: .875rem;
-    color: #212529;
+    color: #fff;
     text-align: left;
-    background-color: #fff;
-    border: 1px solid #e9ecef;
-    border-radius: .25rem
+    background-color: #636363;
+    border: 1px solid #636363;
+    border-radius: .25rem;
 }
 
 .dropup .dropdown-menu {
     margin-top: 0;
-    margin-bottom: .125rem
+    margin-bottom: .125rem;
 }
 
 .dropup .dropdown-toggle::after {
@@ -19483,10 +19481,41 @@ tbody.collapse.show {
     width: 100%;
     padding: .65rem 1.5rem;
     clear: both;
-    color: #212529;
+    color: #ffffff;
     text-align: inherit;
     background-color: transparent;
     border: 0
+}
+
+.dropdown-item>.badge-dropdown {
+    padding: 3px 6px;
+}
+
+.dropdown-item>.badge-dropdown>.txt {
+    font-size: 11px!important;
+    font-family: Montserrat;
+    font-weight: 700;
+    -webkit-border-radius: 12px!important;
+    -moz-border-radius: 12px!important;
+    border-radius: 12px!important;
+    text-shadow: none!important;
+    background-color: #fff;
+    color: #535353;
+    padding: 3px 6px;
+    border:2px solid #535353;
+}
+
+.dropdown-item>.badge-dropdown>.txt:hover {
+    font-size: 11px!important;
+    font-family: Montserrat;
+    font-weight: 700;
+    -webkit-border-radius: 12px!important;
+    -moz-border-radius: 12px!important;
+    border-radius: 12px!important;
+    text-shadow: none!important;
+    background-color: #535353;
+    color: #fff;
+    padding: 3px 6px;
 }
 
 .btn-group>.btn-group:not(:last-child)>.btn,
@@ -20447,7 +20476,7 @@ tbody.collapse.show {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-    color: #fff
+    color: #5e5e5e
 }
 
 .navbar-dark .navbar-toggler {
@@ -20859,7 +20888,7 @@ tbody.collapse.show {
 
 .badge-success {
     color: #fff;
-    background-color: #00c292
+    background-color: #00e010
 }
 
 .badge-success[href]:focus,
@@ -28968,7 +28997,8 @@ ul.list-style-none li a:hover {
 }
 
 .topbar .top-navbar .navbar-header {
-    background: rgba(0, 0, 0, .05);
+    /*background: rgba(0, 0, 0, .05);*/
+    background: transparent;
     line-height: 65px;
     padding-left: 10px;
     min-width: 70px
@@ -28986,7 +29016,7 @@ ul.list-style-none li a:hover {
 }
 
 .topbar .top-navbar .profile-pic img {
-    width: 30px;
+    width: 40px;
     border-radius: 100%
 }
 
@@ -29009,6 +29039,42 @@ ul.list-style-none li a:hover {
     color: #fff;
     padding: 0 10px
 }
+
+.topbar .top-navbar .navbar-nav>.nav-item>span>.badge {
+    font-family: "Open Sans",sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-weight: 300;
+    padding: 3px 6px;
+}
+
+.badgehh {
+    position: absolute;
+    top: 18px;
+    right: 5px;
+    padding: 3px 6px;
+}
+
+
+
+.badgehh>.txt {
+    font-size: 11px!important;
+    font-family: Montserrat;
+    font-weight: 700;
+    -webkit-border-radius: 12px!important;
+    -moz-border-radius: 12px!important;
+    border-radius: 12px!important;
+    text-shadow: none!important;
+    background-color: #ef4b27;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+
+
+
+
 
 .topbar .dropdown-menu {
     box-shadow: 1px 0 20px rgba(0, 0, 0, .08);
@@ -30923,30 +30989,6 @@ ul.list-inline li {
     margin: 0 5px
 }
 
-@font-face {
-    font-family: icomoon;
-    src: url(fonts/icomoon.ttf?-rdmvgc) format("truetype")
-}
-
-@font-face {
-    font-family: simple-line-icons;
-    src: url(fonts/Simple-Line-Icons.ttf?-i3a2kk) format("truetype")
-}
-
-@font-face {
-    font-family: themify;
-    src: url(fonts/themify.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: FontAwesome;
-    src: url(fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype")
-}
-
-@font-face {
-    font-family: 'Material Design Icons';
-    src: url(fonts/materialdesignicons-webfont.ttf) format("truetype")
-}
 
 #main-wrapper {
     width: 100%;
@@ -30954,7 +30996,7 @@ ul.list-inline li {
 }
 
 .page-wrapper {
-    background: #edf1f5;
+    background: transparent;
     position: relative
 }
 
@@ -30963,9 +31005,9 @@ ul.list-inline li {
 }
 
 .page-titles {
-    background: #fff;
-    padding: 14px 10px;
-    margin: 15px 0px 25px
+    /*background: #fff;*/
+    /*padding: 14px 0px;*/
+    margin: 60px 0px 10px -10px;
 }
 
 .page-titles h4 {
