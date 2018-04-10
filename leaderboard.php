@@ -76,7 +76,9 @@ include 'header.php';
                                     <div class="col-md-12 " >
                                         <div class="border-activity">
                                             <div class=" text-right " >
-                                                <b class="text-white">POSTED ON SOCIAL</b>
+                                                <div class="text-center">
+                                                    <b class="text-white">POSTED ON SOCIAL</b>
+                                                </div>
                                                 <img src="assets/images/leaderboard/1.png">
                                             </div>
                                         </div>
@@ -101,7 +103,9 @@ include 'header.php';
                                     <div class="col-md-12 " >
                                         <div class="border-activity">
                                             <div class=" text-right " >
-                                                <b class="text-white">SHARED PHOTOS</b>
+                                                <div class="text-center">
+                                                    <b class="text-white">SHARED PHOTOS</b>
+                                                </div>
                                                 <img src="assets/images/leaderboard/2.png">
                                             </div>
                                         </div>
@@ -126,7 +130,9 @@ include 'header.php';
                                     <div class="col-md-12 " >
                                         <div class="border-activity">
                                             <div class=" text-right " >
-                                                <b class="text-white">SHARED VIDEOS</b>
+                                                <div class="text-center">
+                                                    <b class="text-white">SHARED VIDEOS</b>
+                                                </div>
                                                 <img src="assets/images/leaderboard/3.png">
                                             </div>
                                         </div>
@@ -151,7 +157,9 @@ include 'header.php';
                                     <div class="col-md-12 " >
                                         <div class="border-activity">
                                             <div class=" text-right " >
-                                                <b class="text-white">SHAREABLE CONTENT</b>
+                                                <div class="text-center">
+                                                    <b class="text-white">SHAREABLE CONTENT</b>
+                                                </div>
                                                 <img src="assets/images/leaderboard/4.png">
                                             </div>
                                         </div>
@@ -176,7 +184,9 @@ include 'header.php';
                                     <div class="col-md-12 " >
                                         <div class="border-activity">
                                             <div class=" text-right " >
-                                                <b class="text-white">QUALITY SCORE</b>
+                                                <div class="text-center">
+                                                    <b class="text-white">QUALITY SCORE</b>
+                                                </div>
                                                 <img src="assets/images/leaderboard/5.png">
                                             </div>
                                         </div>

@@ -11,6 +11,8 @@
 
  */
 
+
+
 /** procentaj
 
  */
@@ -134,19 +136,41 @@ button.bg-orange:hover {
     padding-top: 14px;
     margin-left: 60px;
     padding-right: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     /*opacity: 0.7;*/
     font-weight: 700;
 }
 .border-activity img {
-    height: 32px;
+    /*height: 32px;*/
+    height: auto;
     width:auto;
     opacity: 0.7;
+
+    float: right;
+    clear: both;
+    margin-top: 5px;
+    padding-left: 10px;
 }
 
 .border-activity i, .border-activity svg-inline- {
     padding-top:10px;
 }
+
+.border-activity>div>div {
+    width: 120px;
+    /*background: #000;*/
+    display: inline-block;
+    height: 50px;
+}
+
+.border-activity>div>div>b {
+
+}
+
+.border-activity>div>img {
+
+}
+
 
 
 /** Participator score **/
@@ -191,7 +215,8 @@ button.bg-orange:hover {
 
 .procentaj2 li {
     display: inline;
-    margin-right: 67px;
+    /*margin-right: 67px;*/
+    margin-right: 58px;
     font-family: Montserrat;
     font-weight: 700;
 }
@@ -203,6 +228,30 @@ button.bg-orange:hover {
     font-weight: 700;
 }
 
+/** progres bar news ***/
+
+.progressbarNews{
+
+}
+
+.progressbarNews>h5{
+    clear:both;
+    float:left;
+    width: 9%;
+    margin-top: -5px !important;
+    margin-bottom: 5px !important;
+}
+
+.progressbarNews>div{
+    position:relative;
+    width: 90%;
+    margin-top: 4px;
+    margin-bottom: 25px;
+}
+
+.bgprogress {
+    background-color: #00cb18;
+}
 
 .newscharts {
     position: relative;

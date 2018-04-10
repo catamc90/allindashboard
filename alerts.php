@@ -30,6 +30,36 @@ include 'header.php';
             <div class="col-lg-12 col-md-12">
                 <div class="row whitebg roundcorners" >
 
+                    <div class="col-md-5 col-sm-12 align-self-center">
+                        <!--                        <h4 class="">ACTIVITY</h4>-->
+                    </div>
+                    <div class="col-md-7 col-sm-12 align-self-center text-right">
+                        <div class="d-flex justify-content-end align-items-center">
+
+
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+
+                                <div class="input-group" >
+                                    <input type="text" class="form-control mydatepicker" placeholder="Date Range">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><img src="assets/images/calendar.png" class="pickcalendar"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-6 col-sm-12">
+                                <span> Duration: </span>
+                                <button type="button" class="btn waves-effect waves-light btn-secondary">30 d </button>
+                                <button type="button" class="btn waves-effect waves-light btn-secondary"> 6 m </button>
+                                <button type="button" class="btn waves-effect waves-light btn-secondary"> 12 m </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 m-t-40">
+
+                        <!--                                <br><div class="pickcalendar">cc</div>-->
+                    </div>
+
 
                     <div class="col-lg-6">
                         <div class="card">
@@ -53,44 +83,55 @@ include 'header.php';
 
 
 
-                    <div class="col-lg-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">ALERTS | Total Alerts</h4>
-                                <!--                                <h6 class="card-subtitle">Add class <code>.table</code></h6>-->
+                    <div class="col-lg-6 whitebg roundcorners ">
+                        <div class="card ">
+                            <div class="card-body ">
+                                <h4 class="card-title">Alerts | Total Alerts</h4>
 
-                                <h5 class="m-t-30">Jan</h5>
-                                <div class="progress ">
-                                    <div class="progress-bar bg-success wow animated progress-animated" style="width: 25%; height:6px;" role="progressbar"> <span class="sr-only">25 Complete</span> </div>
-                                </div>
-                                <h5 class="m-t-30">Feb</h5>
-                                <div class="progress">
-                                    <div class="progress-bar bg-success wow animated progress-animated" style="width: 90%; height:6px;" role="progressbar"> <span class="sr-only">60 Complete</span> </div>
-                                </div>
-                                <h5 class="m-t-30">Mar</h5>
-                                <div class="progress">
-                                    <div class="progress-bar bg-success wow animated progress-animated" style="width: 65%; height:6px;" role="progressbar"> <span class="sr-only">60 Complete</span> </div>
-                                </div>
-                                <h5 class="m-t-30">Mar</h5>
-                                <div class="progress">
-                                    <div class="progress-bar bg-success wow animated progress-animated" style="width: 60%; height:6px;" role="progressbar"> <span class="sr-only">60 Complete</span> </div>
+                                <div class="m-t-40 progressbarNews">
+
+                                    <h5 class="" style="">Jan</h5>
+                                    <div class="progress " style="">
+                                        <div class="progress-bar bgprogress wow animated progress-animated" style="width: 25%; height:10px;" role="progressbar"> <span class="sr-only">25 Complete</span> </div>
+                                    </div>
+
+                                    <h5 class="">Feb</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar bgprogress wow animated progress-animated" style="width: 90%; height:10px;" role="progressbar"> <span class="sr-only">60 Complete</span> </div>
+                                    </div>
+
+                                    <h5 class="">Mar</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar bgprogress wow animated progress-animated" style="width: 65%; height:10px;" role="progressbar"> <span class="sr-only">60 Complete</span> </div>
+                                    </div>
+
+                                    <h5 class="">Apr</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar bgprogress wow animated progress-animated" style="width: 60%; height:10px;" role="progressbar"> <span class="sr-only">60 Complete</span> </div>
+                                    </div>
                                 </div>
 
-                                <div><hr style="border-top: 2px solid rgba(0, 0, 0, .1)">
-                                    <ul class="procentaj2" >
-                                        <li>0</li>
-                                        <li>10</li>
-                                        <li>20</li>
-                                        <li>30</li>
-                                        <li>40</li>
-                                        <li>50</li>
-                                        <li>60</li>
-                                        <li>70</li>
-                                        <li>80</li>
-<!--                                        <li>90</li>-->
-<!--                                        <li>100</li>-->
-                                    </ul>
+                                <div>
+                                    <div style="width: 9%;float:left;"></div>
+
+                                    <div style="width: 91%;position: relative;    float: right;">
+                                        <hr style="border-top: 2px solid rgba(0, 0, 0, .1)">
+                                        <ul class="procentaj2" >
+                                            <li>0</li>
+                                            <li>10</li>
+                                            <li>20</li>
+                                            <li>30</li>
+                                            <li>40</li>
+                                            <li>50</li>
+                                            <li>60</li>
+                                            <li>70</li>
+                                            <li>80</li>
+                                        </ul>
+                                    </div>
+
                                 </div>
+
+
                             </div>
                         </div>
                     </div>

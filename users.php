@@ -94,7 +94,7 @@ include 'header.php';
                         <div class="card bg-blue text-white">
                             <div class="card-body p-0">
                                 <div class="row">
-                                    <div class="col-md-12 m-t-40 text-center">
+                                    <div class="col-md-12 m-t-20 m-b-40 text-center">
                                         <h3>&nbsp;</h3>
                                         <div class="display-4">75</div>
 <!--                                        <p class="text-white">300 of 2000</p>-->
@@ -103,8 +103,10 @@ include 'header.php';
                                     <div class="col-md-12 " >
                                         <div class="border-activity">
                                             <div class=" text-right " >
-                                                <b class="text-white">PARTICIPATOR SCORE</b>
-                                                <i class="fas fa-list-alt fa-2x"></i>
+                                                <div class="text-center">
+                                                    <b class="text-white">PARTICIPATOR SCORE</b>
+                                                </div>
+                                                <img src="assets/images/userspg/1.png">
                                             </div>
                                         </div>
                                     </div>
@@ -119,7 +121,7 @@ include 'header.php';
                         <div class="card bg-yellow text-white">
                             <div class="card-body p-0">
                                 <div class="row">
-                                    <div class="col-md-12 m-t-40 text-center">
+                                    <div class="col-md-12 m-t-20 m-b-40 text-center">
                                         <h3>&nbsp;</h3>
                                         <div class="display-4">90</div>
 <!--                                        <p class="text-white">300 of 2000</p>-->
@@ -128,8 +130,10 @@ include 'header.php';
                                     <div class="col-md-12 " >
                                         <div class="border-activity">
                                             <div class=" text-right " >
-                                                <b class="text-white">PARTICIPATOR SCORE</b>
-                                                <i class="fas fa-list-alt fa-2x"></i>
+                                                <div class="text-center">
+                                                    <b class="text-white">PARTICIPATOR SCORE</b>
+                                                </div>
+                                                <img src="assets/images/userspg/2.png">
                                             </div>
                                         </div>
                                     </div>
@@ -144,7 +148,7 @@ include 'header.php';
                         <div class="card bg-green text-white">
                             <div class="card-body p-0">
                                 <div class="row">
-                                    <div class="col-md-12 m-t-40 text-center">
+                                    <div class="col-md-12 m-t-20 m-b-40 text-center">
                                         <h3>&nbsp;</h3>
                                         <div class="display-4">20</div>
 <!--                                        <p class="text-white">300 of 2000</p>-->
@@ -153,8 +157,10 @@ include 'header.php';
                                     <div class="col-md-12 " >
                                         <div class="border-activity">
                                             <div class=" text-right " >
-                                                <b class="text-white">PARTICIPATOR SCORE</b>
-                                                <i class="fas fa-list-alt fa-2x"></i>
+                                                <div class="text-center">
+                                                    <b class="text-white">PARTICIPATOR SCORE</b>
+                                                </div>
+                                                <img src="assets/images/userspg/3.png">
                                             </div>
                                         </div>
                                     </div>
@@ -169,7 +175,7 @@ include 'header.php';
                         <div class="card bg-orange text-white">
                             <div class="card-body p-0">
                                 <div class="row">
-                                    <div class="col-md-12 m-t-40 text-center">
+                                    <div class="col-md-12 m-t-20 m-b-40 text-center">
                                         <h3>&nbsp;</h3>
                                         <div class="display-4">30</div>
 <!--                                        <p class="text-white">300 of 2000</p>-->
@@ -178,8 +184,10 @@ include 'header.php';
                                     <div class="col-md-12 " >
                                         <div class="border-activity">
                                             <div class=" text-right " >
-                                                <b class="text-white">PARTICIPATOR SCORE</b>
-                                                <i class="fas fa-list-alt fa-2x"></i>
+                                                <div class="text-center">
+                                                    <b class="text-white">PARTICIPATOR SCORE</b>
+                                                </div>
+                                                <img src="assets/images/userspg/4.png">
                                             </div>
                                         </div>
                                     </div>
@@ -194,7 +202,7 @@ include 'header.php';
                         <div class="card bg-purple text-white">
                             <div class="card-body p-0">
                                 <div class="row">
-                                    <div class="col-md-12 m-t-40 text-center">
+                                    <div class="col-md-12 m-t-20 m-b-40 text-center">
                                         <h3>&nbsp;</h3>
                                         <div class="display-4">40</div>
 <!--                                        <p class="text-white">300 of 2000</p>-->
@@ -203,8 +211,10 @@ include 'header.php';
                                     <div class="col-md-12 " >
                                         <div class="border-activity">
                                             <div class=" text-right " >
-                                                <b class="text-white">PARTICIPATOR SCORE</b>
-                                                <i class="fas fa-list-alt fa-2x"></i>
+                                                <div class="text-center">
+                                                    <b class="text-white">PARTICIPATOR SCORE</b>
+                                                </div>
+                                                <img src="assets/images/userspg/5.png">
                                             </div>
                                         </div>
                                     </div>

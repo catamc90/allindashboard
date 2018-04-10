@@ -73,8 +73,10 @@ include 'header.php';
                                             </div>
                                             <div class="col-md-12 " >
                                                 <div class="border-activity">
-                                                    <div class=" text-right " >
-                                                        <b class="text-white">PARTICIPATOR SCORE</b>
+                                                    <div class="text-right" >
+                                                        <div class="text-center">
+                                                            <b class="text-white">PARTICIPATOR SCORE</b>
+                                                        </div>
                                                         <img src="assets/images/owerview/1.png">
                                                     </div>
                                                 </div>
@@ -98,8 +100,10 @@ include 'header.php';
                                             </div>
                                             <div class="col-md-12 " >
                                                 <div class="border-activity">
-                                                    <div class=" text-right " >
-                                                        <b class="text-white">POSTED ON SOCIALE</b>
+                                                    <div class="text-right" >
+                                                        <div class="text-center">
+                                                            <b class="text-white">POSTED ON SOCIALE</b>
+                                                        </div>
                                                         <img src="assets/images/owerview/2.png">
                                                     </div>
                                                 </div>
@@ -123,8 +127,10 @@ include 'header.php';
                                             </div>
                                             <div class="col-md-12 " >
                                                 <div class="border-activity">
-                                                    <div class=" text-right " >
-                                                        <b class="text-white">NEWS OPENS</b>
+                                                    <div class="text-right" >
+                                                        <div class="text-center">
+                                                            <b class="text-white">NEWS OPENS</b>
+                                                        </div>
                                                         <img src="assets/images/owerview/3.png">
                                                     </div>
                                                 </div>
@@ -149,7 +155,9 @@ include 'header.php';
                                             <div class="col-md-12 " >
                                                 <div class="border-activity">
                                                     <div class=" text-right " >
-                                                        <b class="text-white">ALERTS OPENS</b>
+                                                        <div class="text-center">
+                                                            <b class="text-white">ALERTS OPENS</b>
+                                                        </div>
                                                         <img src="assets/images/owerview/4.png">
                                                     </div>
                                                 </div>
@@ -174,7 +182,9 @@ include 'header.php';
                                             <div class="col-md-12 " >
                                                 <div class="border-activity">
                                                     <div class=" text-right " >
-                                                        <b class="text-white">APP OPENS</b>
+                                                        <div class="text-center">
+                                                            <b class="text-white">APP OPENS</b>
+                                                        </div>
                                                         <img src="assets/images/owerview/5.png">
                                                     </div>
                                                 </div>
