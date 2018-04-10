@@ -125,12 +125,12 @@ include 'header.php';
                             <table id="table-news" class="table m-t-30 table-hover contact-list footable-loaded footable" data-page-size="10">
                                 <thead>
                                 <tr>
-                                    <th class="footable-sortable text-center">Headline<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable text-center">Date Added<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable text-center">Media Type<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable text-center">Potential Opens<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable text-center">Actual Opens<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable text-center">Quality Score<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable footable-sorted text-center">Headline<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable footable-sorted text-center">Date Added<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable footable-sorted text-center">Media Type<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable footable-sorted text-center">Potential Opens<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable footable-sorted text-center">Actual Opens<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable footable-sorted text-center">Quality Score<span class="footable-sort-indicator"></span></th>
 
                                 </tr>
                                 </thead>

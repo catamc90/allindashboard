@@ -35,13 +35,15 @@ include 'header.php';
                         <div class="card">
                             <div class="card-body">
 
-                                <div class="newscharts text-center" >
-
-
-                                    <input data-plugin="knob" data-linecap="butt" data-fgcolor="#b457ff" value="70"
-                                           data-skin="tron" data-angleoffset="180" data-readonly="true" data-thickness=".1"
-                                           readonly="readonly">
-
+                                <div class="newscharts text-center" style="position: relative;">
+                                    <div style="position: relative;display: inline;">
+                                        <input data-plugin="knob" data-linecap="butt" data-fgcolor="#b457ff" value="70"
+                                               data-skin="tron" data-angleoffset="180" data-readonly="true" data-thickness=".1"
+                                               readonly="readonly">
+                                        <span class="newschartsNr" style="">350 of 500</span>
+                                        <span class="newschartsPercent" style="color:#b457ff;">%</span>
+                                        <span class="newschartsDetails" style="color:#b457ff;">QUALITY SCORE</span>
+                                    </div>
                                 </div>
 
                             </div>
@@ -104,55 +106,55 @@ include 'header.php';
                                     <table id="demo-foo-addrow" class="table m-t-30 table-hover contact-list footable-loaded footable" data-page-size="10">
                                         <thead>
                                         <tr>
-                                            <th class="footable-sortable">Title<span class="footable-sort-indicator"></span></th>
-                                            <th class="footable-sortable">Date Added<span class="footable-sort-indicator"></span></th>
-                                            <th class="footable-sortable">Potential Opens<span class="footable-sort-indicator"></span></th>
-                                            <th class="footable-sortable">Not Opened<span class="footable-sort-indicator"></span></th>
-                                            <th class="footable-sortable">Actual Opens<span class="footable-sort-indicator"></span></th>
-                                            <th class="footable-sortable">Quality Score<span class="footable-sort-indicator"></span></th>
+                                            <th class="footable-sortable text-center">Title<span class="footable-sort-indicator"></span></th>
+                                            <th class="footable-sortable text-center">Date Added<span class="footable-sort-indicator"></span></th>
+                                            <th class="footable-sortable text-center">Potential Opens<span class="footable-sort-indicator"></span></th>
+                                            <th class="footable-sortable text-center">Not Opened<span class="footable-sort-indicator"></span></th>
+                                            <th class="footable-sortable text-center">Actual Opens<span class="footable-sort-indicator"></span></th>
+                                            <th class="footable-sortable text-center">Quality Score<span class="footable-sort-indicator"></span></th>
 
                                         </tr>
                                         </thead>
                                         <tbody>
                                         <tr style="" class="footable-even">
-                                            <td>
+                                            <td class="text-center">
                                                 <a href="javascript:void(0)"> Weather Update</a>
                                             </td>
-                                            <td>1/18/18</td>
-                                            <td>3 </td>
-                                            <td>23</td>
-                                            <td>99</td>
-                                            <td>100%</td>
+                                            <td class="text-center">1/18/18</td>
+                                            <td class="text-center">3 </td>
+                                            <td class="text-center">23</td>
+                                            <td class="text-center">99</td>
+                                            <td class="text-center">100%</td>
                                         </tr>
                                         <tr style="" class="footable-odd">
-                                            <td>
+                                            <td class="text-center">
                                                 <a href="javascript:void(0)"> Weather Update</a>
                                             </td>
-                                            <td>1/18/18</td>
-                                            <td>3 </td>
-                                            <td>23</td>
-                                            <td>99</td>
-                                            <td>100%</td>
+                                            <td class="text-center">1/18/18</td>
+                                            <td class="text-center">3 </td>
+                                            <td class="text-center">23</td>
+                                            <td class="text-center">99</td>
+                                            <td class="text-center">100%</td>
                                         </tr>
                                         <tr style="" class="footable-even">
-                                            <td>
+                                            <td class="text-center">
                                                 <a href="javascript:void(0)"> Weather Update</a>
                                             </td>
-                                            <td>1/18/18</td>
-                                            <td>3 </td>
-                                            <td>23</td>
-                                            <td>99</td>
-                                            <td>100%</td>
+                                            <td class="text-center">1/18/18</td>
+                                            <td class="text-center">3 </td>
+                                            <td class="text-center">23</td>
+                                            <td class="text-center">99</td>
+                                            <td class="text-center">100%</td>
                                         </tr>
                                         <tr style="" class="footable-even">
-                                            <td>
+                                            <td class="text-center">
                                                 <a href="javascript:void(0)"> Weather Update</a>
                                             </td>
-                                            <td>1/18/18</td>
-                                            <td>3 </td>
-                                            <td>23</td>
-                                            <td>99</td>
-                                            <td>100%</td>
+                                            <td class="text-center">1/18/18</td>
+                                            <td class="text-center">3 </td>
+                                            <td class="text-center">23</td>
+                                            <td class="text-center">99</td>
+                                            <td class="text-center">100%</td>
                                         </tr>
 
                                         </tbody>

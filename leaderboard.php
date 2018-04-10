@@ -67,17 +67,17 @@ include 'header.php';
                         <div class="card bg-blue text-white">
                             <div class="card-body p-0">
                                 <div class="row">
-                                    <div class="col-md-12 m-t-40 text-center">
+                                    <div class="col-md-12 m-t-20 m-b-40 text-center">
                                         <h3>&nbsp;</h3>
-                                        <div class="display-4">75</div>
+                                        <div class="display-4">50</div>
                                         <!--                                        <p class="text-white">300 of 2000</p>-->
 
                                     </div>
                                     <div class="col-md-12 " >
                                         <div class="border-activity">
                                             <div class=" text-right " >
-                                                <b class="text-white">PARTICIPATOR SCORE</b>
-                                                <i class="fas fa-list-alt fa-2x"></i>
+                                                <b class="text-white">POSTED ON SOCIAL</b>
+                                                <img src="assets/images/leaderboard/1.png">
                                             </div>
                                         </div>
                                     </div>
@@ -92,17 +92,17 @@ include 'header.php';
                         <div class="card bg-yellow text-white">
                             <div class="card-body p-0">
                                 <div class="row">
-                                    <div class="col-md-12 m-t-40 text-center">
+                                    <div class="col-md-12 m-t-20 m-b-40 text-center">
                                         <h3>&nbsp;</h3>
-                                        <div class="display-4">90</div>
+                                        <div class="display-4">105</div>
                                         <!--                                        <p class="text-white">300 of 2000</p>-->
 
                                     </div>
                                     <div class="col-md-12 " >
                                         <div class="border-activity">
                                             <div class=" text-right " >
-                                                <b class="text-white">PARTICIPATOR SCORE</b>
-                                                <i class="fas fa-list-alt fa-2x"></i>
+                                                <b class="text-white">SHARED PHOTOS</b>
+                                                <img src="assets/images/leaderboard/2.png">
                                             </div>
                                         </div>
                                     </div>
@@ -117,7 +117,7 @@ include 'header.php';
                         <div class="card bg-green text-white">
                             <div class="card-body p-0">
                                 <div class="row">
-                                    <div class="col-md-12 m-t-40 text-center">
+                                    <div class="col-md-12 m-t-20 m-b-40 text-center">
                                         <h3>&nbsp;</h3>
                                         <div class="display-4">20</div>
                                         <!--                                        <p class="text-white">300 of 2000</p>-->
@@ -126,8 +126,8 @@ include 'header.php';
                                     <div class="col-md-12 " >
                                         <div class="border-activity">
                                             <div class=" text-right " >
-                                                <b class="text-white">PARTICIPATOR SCORE</b>
-                                                <i class="fas fa-list-alt fa-2x"></i>
+                                                <b class="text-white">SHARED VIDEOS</b>
+                                                <img src="assets/images/leaderboard/3.png">
                                             </div>
                                         </div>
                                     </div>
@@ -142,7 +142,7 @@ include 'header.php';
                         <div class="card bg-orange text-white">
                             <div class="card-body p-0">
                                 <div class="row">
-                                    <div class="col-md-12 m-t-40 text-center">
+                                    <div class="col-md-12 m-t-20 m-b-40 text-center">
                                         <h3>&nbsp;</h3>
                                         <div class="display-4">30</div>
                                         <!--                                        <p class="text-white">300 of 2000</p>-->
@@ -151,8 +151,8 @@ include 'header.php';
                                     <div class="col-md-12 " >
                                         <div class="border-activity">
                                             <div class=" text-right " >
-                                                <b class="text-white">PARTICIPATOR SCORE</b>
-                                                <i class="fas fa-list-alt fa-2x"></i>
+                                                <b class="text-white">SHAREABLE CONTENT</b>
+                                                <img src="assets/images/leaderboard/4.png">
                                             </div>
                                         </div>
                                     </div>
@@ -167,7 +167,7 @@ include 'header.php';
                         <div class="card bg-purple text-white">
                             <div class="card-body p-0">
                                 <div class="row">
-                                    <div class="col-md-12 m-t-40 text-center">
+                                    <div class="col-md-12 m-t-20 m-b-40 text-center">
                                         <h3>&nbsp;</h3>
                                         <div class="display-4">40</div>
                                         <!--                                        <p class="text-white">300 of 2000</p>-->
@@ -176,8 +176,8 @@ include 'header.php';
                                     <div class="col-md-12 " >
                                         <div class="border-activity">
                                             <div class=" text-right " >
-                                                <b class="text-white">PARTICIPATOR SCORE</b>
-                                                <i class="fas fa-list-alt fa-2x"></i>
+                                                <b class="text-white">QUALITY SCORE</b>
+                                                <img src="assets/images/leaderboard/5.png">
                                             </div>
                                         </div>
                                     </div>
@@ -197,108 +197,70 @@ include 'header.php';
                         <!--                        <h4 class="card-title">Contact Emplyee list</h4>-->
                         <!--                        <h6 class="card-subtitle"></h6>-->
                         <div class="table-responsive">
-                            <div id="add-contact" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                            <h4 class="modal-title" id="myModalLabel">Add New Contact</h4> </div>
-                                        <div class="modal-body">
-                                            <from class="form-horizontal form-material">
-                                                <div class="form-group">
-                                                    <div class="col-md-12 m-b-20">
-                                                        <input type="text" class="form-control" placeholder="Type name"> </div>
-                                                    <div class="col-md-12 m-b-20">
-                                                        <input type="text" class="form-control" placeholder="Email"> </div>
-                                                    <div class="col-md-12 m-b-20">
-                                                        <input type="text" class="form-control" placeholder="Phone"> </div>
-                                                    <div class="col-md-12 m-b-20">
-                                                        <input type="text" class="form-control" placeholder="Designation"> </div>
-                                                    <div class="col-md-12 m-b-20">
-                                                        <input type="text" class="form-control" placeholder="Age"> </div>
-                                                    <div class="col-md-12 m-b-20">
-                                                        <input type="text" class="form-control" placeholder="Date of joining"> </div>
-                                                    <div class="col-md-12 m-b-20">
-                                                        <input type="text" class="form-control" placeholder="Salary"> </div>
-                                                    <div class="col-md-12 m-b-20">
-                                                        <div class="fileupload btn btn-danger btn-rounded waves-effect waves-light"><span><i class="ion-upload m-r-5"></i>Upload Contact Image</span>
-                                                            <input type="file" class="upload"> </div>
-                                                    </div>
-                                                </div>
-                                            </from>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-info waves-effect" data-dismiss="modal">Save</button>
-                                            <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Cancel</button>
-                                        </div>
-                                    </div>
-                                    <!-- /.modal-content -->
-                                </div>
-                                <!-- /.modal-dialog -->
-                            </div><table id="demo-foo-addrow" class="table m-t-30 table-hover contact-list footable-loaded footable" data-page-size="10">
+                            <table id="demo-foo-addrow" class="table m-t-30 table-hover contact-list footable-loaded footable" data-page-size="10">
                                 <thead>
                                 <tr>
-                                    <th class="footable-sortable">Name<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable">Social<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable">Photos<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable">Videos<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable">Unapproved<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable">Total<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable">Shareable Content Score<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable">Quality Score<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable text-center">Name<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable text-center">Social<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable text-center">Photos<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable text-center">Videos<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable text-center">Unapproved<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable text-center">Total<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable text-center">Shareable Content Score<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable text-center">Quality Score<span class="footable-sort-indicator"></span></th>
 
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr style="" class="footable-even">
-                                    <td>
+                                    <td class="text-center">
                                         <a href="javascript:void(0)"> John Smith</a>
                                     </td>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3 </td>
-                                    <td>23</td>
-                                    <td>99</td>
-                                    <td>100%</td>
-                                    <td>10%</td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">2</td>
+                                    <td class="text-center">3 </td>
+                                    <td class="text-center">23</td>
+                                    <td class="text-center">99</td>
+                                    <td class="text-center">100%</td>
+                                    <td class="text-center">10%</td>
                                 </tr>
                                 <tr style="" class="footable-odd">
-                                    <td>
+                                    <td class="text-center">
                                         <a href="javascript:void(0)"> John Smith</a>
                                     </td>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3 </td>
-                                    <td>23</td>
-                                    <td>99</td>
-                                    <td>100%</td>
-                                    <td>10%</td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">2</td>
+                                    <td class="text-center">3 </td>
+                                    <td class="text-center">23</td>
+                                    <td class="text-center">99</td>
+                                    <td class="text-center">100%</td>
+                                    <td class="text-center">10%</td>
 
                                 </tr>
                                 <tr style="" class="footable-even">
-                                    <td>
+                                    <td class="text-center">
                                         <a href="javascript:void(0)"> John Smith</a>
                                     </td>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3 </td>
-                                    <td>23</td>
-                                    <td>99</td>
-                                    <td>100%</td>
-                                    <td>10%</td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">2</td>
+                                    <td class="text-center">3 </td>
+                                    <td class="text-center">23</td>
+                                    <td class="text-center">99</td>
+                                    <td class="text-center">100%</td>
+                                    <td class="text-center">10%</td>
 
                                 </tr>
                                 <tr style="" class="footable-even">
-                                    <td>
+                                    <td class="text-center">
                                         <a href="javascript:void(0)"> John Smith</a>
                                     </td>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3 </td>
-                                    <td>23</td>
-                                    <td>99</td>
-                                    <td>100%</td>
-                                    <td>10%</td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">2</td>
+                                    <td class="text-center">3 </td>
+                                    <td class="text-center">23</td>
+                                    <td class="text-center">99</td>
+                                    <td class="text-center">100%</td>
+                                    <td class="text-center">10%</td>
 
                                 </tr>
 
