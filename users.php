@@ -63,20 +63,24 @@ include 'header.php';
                     <div class="col-md-7 col-sm-12 align-self-center text-right">
                         <div class="d-flex justify-content-end align-items-center">
 
+                            <div class="col-lg-12 col-md-6 col-sm-12">
 
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="input-group">
-                                    <input type="text" class="form-control mydatepicker" placeholder="Date Range">
-                                    <div class="input-group-append">
-                                        <span class="input-group-text"><img src="assets/images/calendar.png" class="pickcalendar"></span>
+                                <div style="" class="text-right pull-right">
+                                    <span> Duration: </span>
+                                    <button type="button" class="btn waves-effect waves-light btn-secondary">30 d </button>
+                                    <button type="button" class="btn waves-effect waves-light btn-secondary"> 6 m </button>
+                                    <button type="button" class="btn waves-effect waves-light btn-secondary"> 12 m </button>
+                                </div>
+
+                                <div style="padding-right: 20px;" class="text-right pull-right">
+                                    <div class="input-group" style="float: left;">
+                                        <input type="text" class="form-control mydatepicker" placeholder="Date Range">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text"><img src="assets/images/calendar.png" class="pickcalendar"></span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-5 col-md-6 col-sm-12">
-                                <span> Duration: </span>
-                                <button type="button" class="btn waves-effect waves-light btn-secondary">30 d </button>
-                                <button type="button" class="btn waves-effect waves-light btn-secondary"> 6 m </button>
-                                <button type="button" class="btn waves-effect waves-light btn-secondary"> 12 m </button>
+
                             </div>
                         </div>
                     </div>
