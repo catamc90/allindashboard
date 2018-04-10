@@ -36,23 +36,31 @@ include 'header.php';
                     <div class="card-body">
 
                         <div class="newscharts" >
+                            <div style="position: relative;display: inline;width: 100%;">
+                                <input data-plugin="knob" data-linecap="butt" data-fgcolor="#b457ff" value="24%"
+                                       data-skin="tron" data-angleoffset="180" data-readonly="true" data-thickness=".1"
+                                       readonly="readonly" style="" >
+                                <span class="newschartsNr" style="">240 of 1000</span>
+                                <span class="newschartsPercent" style="color:#b457ff;">%</span>
+                                <span class="newschartsDetails" style="color:#b457ff;">QUALITY SCORE</span>
+                            </div>
 
-
-                            <input data-plugin="knob" data-linecap="butt" data-fgcolor="#b457ff" value="24%"
-                                   data-skin="tron" data-angleoffset="180" data-readonly="true" data-thickness=".1"
-                                   readonly="readonly"
-                                   >
-
-
+                            <div style="position: relative;display: inline;width: 100%;">
                             <input data-plugin="knob" data-linecap="butt" data-fgcolor="#f4e219" value="30%"
                                    data-skin="tron" data-angleoffset="180" data-readonly="true" data-thickness=".1"
-                                   readonly="readonly"
-                                   style="">
-
+                                   readonly="readonly" style="">
+                                <span class="newschartsNr" style="">240 of 1000</span>
+                                <span class="newschartsPercent" style="color:#f4e219;">%</span>
+                                <span class="newschartsDetails" style="color:#f4e219;">QUALITY SCORE</span>
+                            </div>
+                            <div style="position: relative;display: inline;width: 100%;">
                             <input data-plugin="knob" data-linecap="butt" data-fgcolor="#13d164" value="33%"
                                    data-skin="tron" data-angleoffset="180" data-readonly="true" data-thickness=".1"
-                                   readonly="readonly"
-                                   style="">
+                                   readonly="readonly" style="">
+                                <span class="newschartsNr" style="">240 of 1000</span>
+                                <span class="newschartsPercent" style="color:#13d164;">%</span>
+                                <span class="newschartsDetails" style="color:#13d164;">QUALITY SCORE</span>
+                            </div>
 
                         </div>
 
@@ -114,114 +122,59 @@ include 'header.php';
                         <div class="table-responsive">
 
 
-                            <table id="demo-foo-addrow" class="table m-t-30 table-hover contact-list footable-loaded footable" data-page-size="10">
+                            <table id="table-news" class="table m-t-30 table-hover contact-list footable-loaded footable" data-page-size="10">
                                 <thead>
                                 <tr>
-                                    <th class="footable-sortable">Headline<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable">Participator Score<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable">Photos</th>
-                                    <th class="footable-sortable">Videos</th>
-                                    <th class="footable-sortable">Total</th>
-                                    <th class="footable-sortable">Goal</th>
-                                    <th class="footable-sortable">Quality Score (%)<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable">Posted</th>
-                                    <th class="footable-sortable">Viewed<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable">Quality Score (%)<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable">Posted</th>
-                                    <th class="footable-sortable">Viewed<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable">Quality Score (%)<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable">Posted</th>
-                                    <th class="footable-sortable">Viewed<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable">Quality Score (%)<span class="footable-sort-indicator"></span></th>
-                                    <th class="footable-sortable">App Opens<span class="footable-sort-indicator"></span></th>
-
+                                    <th class="footable-sortable text-center">Headline<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable text-center">Date Added<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable text-center">Media Type<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable text-center">Potential Opens<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable text-center">Actual Opens<span class="footable-sort-indicator"></span></th>
+                                    <th class="footable-sortable text-center">Quality Score<span class="footable-sort-indicator"></span></th>
 
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr style="" class="footable-even">
-                                    <td>
-                                        <a href="javascript:void(0)"> John Smith</a>
+                                    <td class="text-center">
+                                        <a href="javascript:void(0)"> Article #1</a>
                                     </td>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3 </td>
-                                    <td>23</td>
-                                    <td>99</td>
-                                    <td>100%</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td><i class="fas fa-star fa-lg"></i></td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">2</td>
+                                    <td class="text-center">3 </td>
+                                    <td class="text-center">23</td>
+                                    <td class="text-center">100%</td>
+
                                 </tr>
                                 <tr style="" class="footable-odd">
-                                    <td>
-                                        <a href="javascript:void(0)"> John Smith</a>
+                                    <td class="text-center">
+                                        <a href="javascript:void(0)"> Article #1</a>
                                     </td>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3 </td>
-                                    <td>23</td>
-                                    <td>99</td>
-                                    <td>100%</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td><i class="fas fa-star fa-lg"></i></td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">2</td>
+                                    <td class="text-center">3 </td>
+                                    <td class="text-center">23</td>
+                                    <td class="text-center">100%</td>
                                 </tr>
                                 <tr style="" class="footable-even">
-                                    <td>
-                                        <a href="javascript:void(0)"> John Smith</a>
+                                    <td class="text-center">
+                                        <a href="javascript:void(0)"> Article #1</a>
                                     </td>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3 </td>
-                                    <td>23</td>
-                                    <td>99</td>
-                                    <td>100%</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td><i class="fas fa-star fa-lg"></i></td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">2</td>
+                                    <td class="text-center">3 </td>
+                                    <td class="text-center">23</td>
+                                    <td class="text-center">100%</td>
                                 </tr>
-                                <tr style="" class="footable-even">
-                                    <td>
-                                        <a href="javascript:void(0)"> John Smith</a>
+                                <tr style="" class="footable-odd">
+                                    <td class="text-center">
+                                        <a href="javascript:void(0)"> Article #1</a>
                                     </td>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>3 </td>
-                                    <td>23</td>
-                                    <td>99</td>
-                                    <td>100%</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td>10</td>
-                                    <td><i class="fas fa-star fa-lg"></i></td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">2</td>
+                                    <td class="text-center">3 </td>
+                                    <td class="text-center">23</td>
+                                    <td class="text-center">100%</td>
                                 </tr>
 
                                 </tbody>

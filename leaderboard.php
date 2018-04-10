@@ -49,7 +49,7 @@ include 'header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="col-lg-5 col-md-6 col-sm-12">
                                 <span> Duration: </span>
                                 <button type="button" class="btn waves-effect waves-light btn-secondary">30 d </button>
                                 <button type="button" class="btn waves-effect waves-light btn-secondary"> 6 m </button>

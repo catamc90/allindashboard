@@ -128,8 +128,8 @@ button.bg-orange:hover {
 
 
 .border-activity {
-    border-top: solid 1px #ffffff;
-    border-left: solid 1px #ffffff;
+    /*border-top: solid 1px #ffffff;*/
+    /*border-left: solid 1px #ffffff;*/
     background-color: rgba(39, 43, 61, 0.2);
     padding-top: 14px;
     margin-left: 60px;
@@ -205,18 +205,60 @@ button.bg-orange:hover {
 
 
 .newscharts {
+    position: relative;
     margin-top:60px;
+}
+.newscharts>div>div>input {
+    font-family: 'Montserrat' !important;
+    font-weight: 700;
+    margin-left: -165px !important;
+}
+
+.newschartsNr {
+    position: absolute;
+    font-family: 'Montserrat' !important;
+    font-weight: 200;
+    left: 60px;top:-130px;
+}
+
+.newschartsPercent {
+    position: absolute;
+    left: 112px;
+    top:-117px;
+    font-size: 40px;
+    font-weight: 700 !important;
+}
+
+.newschartsDetails {
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 600 !important;
+    left: 45px;top:-65px;
 }
 
 .newscharts>div {
-
-    margin-right: 40px;
+    margin-right: 38px;
 }
 
 .newscharts>div:last-child {
     margin-right: 0px;
 }
 
+.footable > thead > tr > th {
+
+}
+
+#table-news>table>head>tr>th {
+    font-family: Montserrat;
+    font-weight: 700;
+    color:#000000 !important;
+}
+
+table>head>tr>th {
+    font-family: Montserrat;
+    font-weight: 700;
+    color:#000000 !important;
+}
 
 
 /** Media **/

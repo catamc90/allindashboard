@@ -36,14 +36,15 @@ include 'header.php';
 
 
                                     <div class="col-lg-3 col-md-6 col-sm-12">
-                                        <div class="input-group">
+
+                                        <div class="input-group" >
                                             <input type="text" class="form-control mydatepicker" placeholder="Date Range">
                                             <div class="input-group-append">
                                                 <span class="input-group-text"><img src="assets/images/calendar.png" class="pickcalendar"></span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <div class="col-lg-5 col-md-6 col-sm-12">
                                         <span> Duration: </span>
                                         <button type="button" class="btn waves-effect waves-light btn-secondary">30 d </button>
                                         <button type="button" class="btn waves-effect waves-light btn-secondary"> 6 m </button>
@@ -98,7 +99,7 @@ include 'header.php';
                                             <div class="col-md-12 " >
                                                 <div class="border-activity">
                                                     <div class=" text-right " >
-                                                        <b class="text-white">PARTICIPATOR SCORE</b>
+                                                        <b class="text-white">POSTED ON SOCIALE</b>
                                                         <img src="assets/images/owerview/2.png">
                                                     </div>
                                                 </div>
@@ -123,7 +124,7 @@ include 'header.php';
                                             <div class="col-md-12 " >
                                                 <div class="border-activity">
                                                     <div class=" text-right " >
-                                                        <b class="text-white">PARTICIPATOR SCORE</b>
+                                                        <b class="text-white">NEWS OPENS</b>
                                                         <img src="assets/images/owerview/3.png">
                                                     </div>
                                                 </div>
@@ -148,7 +149,7 @@ include 'header.php';
                                             <div class="col-md-12 " >
                                                 <div class="border-activity">
                                                     <div class=" text-right " >
-                                                        <b class="text-white">PARTICIPATOR SCORE</b>
+                                                        <b class="text-white">ALERTS OPENS</b>
                                                         <img src="assets/images/owerview/4.png">
                                                     </div>
                                                 </div>
@@ -173,7 +174,7 @@ include 'header.php';
                                             <div class="col-md-12 " >
                                                 <div class="border-activity">
                                                     <div class=" text-right " >
-                                                        <b class="text-white">PARTICIPATOR SCORE</b>
+                                                        <b class="text-white">APP OPENS</b>
                                                         <img src="assets/images/owerview/5.png">
                                                     </div>
                                                 </div>
