@@ -20,9 +20,12 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
     <!-- Dashboard 1 Page CSS -->
+
     <link href="./assets/css/dashboard1.css" rel="stylesheet">
     <link href="./assets/css/update.css" rel="stylesheet">
     <link href="./assets/css/bootstrap-datepicker.min.css" rel="stylesheet">
+<!--    <link href="http://eliteadmin.themedesigner.in/demos/bt4/assets/node_modules/jquery-asColorPicker-master/css/asColorPicker.css" rel="stylesheet">-->
+<!--    <link href="http://eliteadmin.themedesigner.in/demos/bt4/assets/node_modules/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet">-->
 
     <!--users.php-->
     <link href="./assets/css/footable.core.css" rel="stylesheet">
@@ -69,12 +72,13 @@
                     <!-- Logo icon --><b>
                         <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                         <!-- Dark Logo icon -->
-                        <img src="assets/images/sign1.png" alt="homepage" class="dark-logo">
+<!--                        <img src="assets/images/sign1.png" alt="homepage" class="dark-logo">-->
                         <!-- Light Logo icon -->
-                        <img src="assets/images/sign1.png" alt="homepage" class="light-logo">
+                        <img src="assets/images/sign1.png" alt="homepage" class="light-logo" height="47">
                     </b>
                     <!--End Logo icon -->
-                    <!-- Logo text --><span style="display: none;">
+                    <!-- Logo text -->
+                    <span style="display: none;">
                          <!-- dark Logo text -->
                          <img src="assets/images/sign1.png" alt="homepage" class="dark-logo">
                         <!-- Light Logo text -->
@@ -95,7 +99,7 @@
                     <!-- Search -->
                     <!-- ============================================================== -->
                     <li class="nav-item">
-                        <img src="assets/images/sign2.png">
+                        <img src="assets/images/sign2.png" height="47">
 
                     </li>
                 </ul>
@@ -149,11 +153,12 @@
             <nav class="sidebar-nav">
                 <ul id="sidebarnav">
 
-                    <li class="active"> <a class="has-arrow waves-effect waves-dark active" href="javascript:void(0)" aria-expanded="false">
+                    <li><a class="has-arrow waves-effect waves-dark " href="javascript:void(0)" aria-expanded="false">
                             <i class="fas fa-th-large fa-lg"></i><span class="hide-menu"> DASHBOARD
-                            <span class="badge badge-pill badge-cyan ml-auto">5</span></span></a>
+<!--                            <span class="badge badge-pill badge-cyan ml-auto">5</span></span>-->
+                        </a>
                         <ul aria-expanded="false" class="collapse in">
-                            <li class="active"><a href="index.php" class="active">Overview </a></li>
+                            <li ><a href="index.php" >Overview </a></li>
                             <li><a href="users.php">Users</a></li>
                             <li><a href="leaderboard.php">Leaderboard</a></li>
                             <li><a href="news.php">News</a></li>

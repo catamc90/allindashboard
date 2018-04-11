@@ -8,9 +8,11 @@ http://design.ameromdev.com/users.php
 http://design.ameromdev.com/alerts.php
 http://design.ameromdev.com/media.php
 http://design.ameromdev.com/media-edit.php
+http://design.ameromdev.com/notifications.php
+http://design.ameromdev.com/settings.php
 
 
 
-[00:32, 4/11/2018] Mihut America: ok
-[00:32, 4/11/2018] Mihut America: si ptr maine
-[00:33, 4/11/2018] Mihut America: Settings, Settings (Color Pop-up) & Notifications si Front End Website
+
+
+
