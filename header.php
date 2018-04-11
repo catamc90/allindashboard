@@ -172,7 +172,7 @@
                     <li><a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-bell fa-lg"></i><span class="hide-menu"> Alerts</span></a>
                     </li>
 
-                    <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="fas fa-users fa-lg"></i><span class="hide-menu">Settings</span></a>
+                    <li> <a class="waves-effect waves-dark" href="settings.php" aria-expanded="false"><i class="fas fa-users fa-lg"></i><span class="hide-menu">Settings</span></a>
                     </li>
 
                 </ul>
