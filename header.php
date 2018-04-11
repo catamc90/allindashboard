@@ -24,8 +24,6 @@
     <link href="./assets/css/dashboard1.css" rel="stylesheet">
     <link href="./assets/css/update.css" rel="stylesheet">
     <link href="./assets/css/bootstrap-datepicker.min.css" rel="stylesheet">
-<!--    <link href="http://eliteadmin.themedesigner.in/demos/bt4/assets/node_modules/jquery-asColorPicker-master/css/asColorPicker.css" rel="stylesheet">-->
-<!--    <link href="http://eliteadmin.themedesigner.in/demos/bt4/assets/node_modules/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet">-->
 
     <!--users.php-->
     <link href="./assets/css/footable.core.css" rel="stylesheet">
